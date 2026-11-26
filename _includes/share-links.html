@@ -1,0 +1,12 @@
+<section class="article-share" aria-labelledby="article-share-heading">
+  <h2 id="article-share-heading">Compartilhe este artigo</h2>
+  <p>Se este conteúdo puder ajudar alguém, compartilhe o link.</p>
+  {% assign share_url = page.url | absolute_url | uri_escape %}
+  {% assign share_title = page.title | uri_escape %}
+  <ul class="article-share-list">
+    <li><a href="https://wa.me/?text={{ share_title }}%20{{ share_url }}" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+    <li><a href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url }}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+    <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ share_url }}" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+    <li><a href="mailto:?subject={{ share_title }}&amp;body={{ share_url }}">E-mail</a></li>
+  </ul>
+</section>
