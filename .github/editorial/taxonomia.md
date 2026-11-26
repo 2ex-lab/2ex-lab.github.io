@@ -1,124 +1,112 @@
 # Taxonomia editorial do 2ex-lab
 
-**Status:** vocabulário controlado inicial, versão 1.0  
-**Escopo:** site, artigos, páginas de área, pautas, metadados, pesquisa, revisão e descoberta.  
-**Princípio:** uma taxonomia pequena e consistente é melhor que tags numerosas, redundantes ou criadas apenas para SEO.
+**Status:** vocabulário controlado implementado em estrutura de dados e navegação.  
+**Fonte estruturada:** `_data/taxonomy.yml`.  
+**Índice público:** `/tags/`.  
+**Princípio:** categorias estáveis e poucas; tags transversais, controladas e aplicadas apenas quando materialmente relevantes.
 
-## 1. Modelo conceitual
+## 1. Categorias principais
 
-A organização editorial tem três níveis complementares:
+Cada artigo publicado recebe exatamente uma categoria principal. Os identificadores internos do Jekyll são estáveis e distintos dos nomes de navegação.
 
-1. **Pilares estratégicos** — organizam o equilíbrio de temas e a intenção editorial.
-2. **Áreas editoriais** — categorias principais de navegação e classificação dos conteúdos no Jekyll.
-3. **Assuntos transversais** — tags controladas que descrevem conceitos, públicos, condições, práticas e formatos presentes em cada conteúdo.
-
-Pilares e áreas não são sinônimos. Os pilares orientam o planejamento; as áreas organizam a publicação. Um artigo recebe uma única categoria principal, ainda que dialogue com vários pilares.
-
-## 2. Pilares estratégicos
-
-Os percentuais abaixo são hipóteses de planejamento, não cotas rígidas:
-
-| Pilar | Peso inicial | Abrangência |
-|---|---:|---|
-| Dupla excepcionalidade e altas habilidades | 40% | conceitos, perfis, evidências, identificação e desenvolvimento de potencial |
-| Família, escola e inclusão | 35% | aprendizagem, práticas educativas, participação, acessibilidade pedagógica e apoio |
-| Tecnologia assistiva e acessibilidade | 25% | IA, ferramentas, tecnologias, acessibilidade digital e experimentação |
-
-A distribuição pode mudar com a evolução do projeto, interesse editorial e evidências de utilidade para o público.
-
-## 3. Categorias principais — áreas editoriais
-
-Todo artigo publicado deve receber **exatamente uma** das categorias abaixo, em minúsculas e com hífen. A categoria deve refletir a finalidade principal do artigo, não todos os assuntos mencionados.
-
-| Categoria Jekyll | Área | Incluir quando o foco principal for |
+| Identificador Jekyll | Categoria pública | Escopo |
 |---|---|---|
-| `2e-knowledge` | 2e Knowledge | ciência, conceitos, terminologia, pesquisas, legislação, evidências, identificação e limites do conhecimento |
-| `2e-learning` | 2e Learning | aprendizagem, família, escola, educação, práticas inclusivas, participação e apoio pedagógico |
-| `2e-tech` | 2e Tech | IA, tecnologia assistiva, ferramentas digitais, acessibilidade tecnológica e experimentos |
-| `2e-resources` | 2e Resources | guias práticos, materiais, bibliotecas, diretórios, checklists e comparativos |
+| `knowledge` | **2e Knowledge** | Ciência, conceitos, pesquisas, legislação, identificação e limites do conhecimento |
+| `learning` | **2e Learning** | Aprendizagem, educação, família, escola, inclusão e acessibilidade pedagógica |
+| `tech` | **2e Tech** | IA, tecnologia assistiva, ferramentas digitais, acessibilidade e experimentação |
+| `resources` | **2e Resources** | Guias, materiais, bibliotecas, checklists, diretórios e comparativos |
 
-Não criar categorias adicionais sem necessidade editorial demonstrada. Não usar categoria como tag.
+As URLs públicas das áreas permanecem `/2e-knowledge/`, `/2e-learning/`, `/2e-tech/` e `/2e-resources/`. Não criar sites separados nem categorias adicionais sem necessidade demonstrada.
 
-## 4. Vocabulário controlado inicial de tags
+## 2. Pilares editoriais
 
-Tags são assuntos transversais. Usar apenas quando o tema for material ao conteúdo. Tags em minúsculas, sem acentos e em kebab-case; manter os termos legíveis nos títulos e no texto.
+Os cinco pilares são dimensões transversais, não categorias nem tags:
 
-### Conceitos e perfis
-- `dupla-excepcionalidade` — conceito central 2e.
-- `altas-habilidades-superdotacao` — altas habilidades/superdotação.
-- `neurodiversidade` — conceito amplo de diversidade neurológica.
-- `neurodivergencia` — experiências e perfis neurodivergentes.
+- **Entender** — conceitos, evidências, terminologia e identificação.
+- **Aprender** — escola, estratégias, acessibilidade pedagógica e apoio.
+- **Experimentar** — ferramentas digitais, IA, tecnologia assistiva e métodos.
+- **Explorar** — criatividade, interesses, talentos e relatos contextualizados.
+- **Escolher** — guias, comparativos e recomendações transparentes.
 
-### Condições e combinações
-- `autismo-tea` — transtorno do espectro autista, quando substantivo ao artigo.
-- `tdah` — transtorno do déficit de atenção com hiperatividade.
-- `dislexia` — dislexia e dificuldades relacionadas à leitura/escrita, sem usar como sinônimo de todo transtorno de aprendizagem.
-- `transtornos-de-aprendizagem` — usar quando o escopo realmente abranger o conjunto de transtornos específicos de aprendizagem.
+Podem ser registrados no campo `editorial_pillar`; não geram arquivos de navegação automaticamente.
 
-### Identificação e evidências
-- `identificacao` — processos e desafios de identificação.
-- `avaliacao` — avaliação educacional, psicológica ou multidimensional, conforme o contexto explicitado.
-- `mascaramento` — masking, compensação ou ocultação de forças/dificuldades, quando discutido.
-- `pesquisa-cientifica` — síntese, revisão ou discussão explícita de estudos.
-- `evidencias` — qualidade, limites e interpretação da evidência.
-- `legislacao-politicas-publicas` — leis, normas e políticas públicas.
+## 3. Vocabulário controlado de 35 tags
 
-### Aprendizagem, contexto e participação
-- `aprendizagem` — processos e condições de aprender.
-- `educacao-inclusiva` — políticas e práticas de inclusão educacional.
-- `familia` — experiências, recursos ou orientação geral para famílias.
-- `escola` — contexto escolar e práticas institucionais.
-- `acessibilidade` — acessibilidade em sentido amplo, especificando o contexto no artigo.
-- `desenvolvimento-de-talentos` — oportunidades e desenvolvimento de potencialidades.
+Os slugs e rótulos oficiais ficam em `_data/taxonomy.yml`. O índice público agrupa os termos por assunto e mostra os conteúdos publicados associados.
 
-### Tecnologia e recursos
-- `inteligencia-artificial` — IA como tema substantivo.
-- `tecnologia-assistiva` — tecnologia assistiva.
-- `ferramentas-digitais` — ferramentas ou serviços digitais analisados.
-- `guias-e-materiais` — recursos práticos e materiais produzidos/curados.
+### Condições, perfis e conceitos
+- `dupla-excepcionalidade`
+- `altas-habilidades`
+- `neurodiversidade`
+- `autismo`
+- `tdah`
+- `dislexia`
+- `outras-neurodivergencias`
+- `identificacao`
+- `desenvolvimento-de-talentos`
+- `criatividade`
 
-A lista é inicial, não uma obrigação de usar todas as tags. Novas tags podem ser propostas quando houver conceito recorrente sem correspondência adequada. Antes de criar uma nova, verificar sinônimos e escolher um termo canônico.
+### Aprendizagem, família e inclusão
+- `aprendizagem`
+- `educacao-inclusiva`
+- `acessibilidade-pedagogica`
+- `escola`
+- `familia`
+- `familia-escola`
+- `barreiras-e-apoios`
+- `adultos-2e`
+- `criancas-e-adolescentes`
 
-## 5. Regras de atribuição
+### Tecnologia e experimentação
+- `inteligencia-artificial`
+- `tecnologia-assistiva`
+- `acessibilidade-digital`
+- `ferramentas-digitais`
+- `organizacao-e-planejamento`
+- `experimentacao`
+- `ux-e-design`
 
-1. Cada artigo: uma categoria principal, obrigatória.
-2. Cada artigo: normalmente 3 a 6 tags relevantes; não existe mínimo artificial.
-3. Não adicionar tag só porque a palavra aparece incidentalmente.
-4. Não criar tags para nome de autor, periódico, país ou ano.
-5. Não usar sinônimos como tags distintas para o mesmo conceito. Preferir o termo canônico.
-6. Não confundir condição mencionada como exemplo com foco editorial do artigo.
-7. Uma tag não representa diagnóstico, prevalência, endosso ou recomendação.
-8. Páginas institucionais e páginas de área não precisam receber tags de artigo.
-9. Não transformar automaticamente cada tag em página de SEO. Arquivos de tags só serão criados se houver conteúdo suficiente e utilidade real para navegação.
-10. Revisar categoria e tags na pauta, antes da redação final e durante a revisão editorial.
+### Evidências, direitos e contexto
+- `pesquisa-cientifica`
+- `evidencias`
+- `legislacao-e-direitos`
+- `brasil`
+- `relatos-contextualizados`
 
-## 6. Metadados obrigatórios dos artigos Jekyll
+### Recursos e decisões
+- `guias-praticos`
+- `checklists-e-modelos`
+- `comparativos`
+- `bibliotecas-e-diretorios`
+- `recomendacoes-transparentes`
 
-Exemplo de front matter:
+## 4. Regras de atribuição
 
-```yaml
----
-layout: article
-title: "Título claro e fiel ao conteúdo"
-description: "Resumo específico, sem promessa exagerada."
-categories:
-  - 2e-knowledge
-tags:
-  - dupla-excepcionalidade
-  - altas-habilidades-superdotacao
-  - identificacao
-  - mascaramento
-  - pesquisa-cientifica
----
-```
+1. Uma categoria principal por artigo; categoria secundária somente se houver interseção editorial genuína.
+2. Normalmente, 2 a 6 tags específicas por conteúdo; não existe mínimo artificial.
+3. Não atribuir tag por mera menção incidental.
+4. Não criar tags para cada artigo, sinônimos, marcas comerciais, anos ou palavras genéricas.
+5. Criar tag nova somente quando houver recorrência editorial e ganho real de descoberta.
+6. Público, formato, estado da evidência, sensibilidade, situação comercial, fontes e data de revisão são metadados próprios, não tags.
+7. Páginas de categoria listam automaticamente os artigos publicados na categoria.
+8. Os chips de tags nos artigos levam ao ponto correspondente no índice transversal `/tags/#slug`.
+9. O índice mostra tags ainda sem conteúdo, mas não cria arquivos de tag vazios nem páginas SEO independentes.
+10. Ligações editoriais devem ser contextuais; não forçar conexões só porque dois artigos compartilham uma tag ampla.
 
-Usar a data real de publicação no campo `date`; não retroagir ou antecipar datas para manipular ordenação. O permalink deve ser estável, legível, em minúsculas e com hífens. Não incluir múltiplas categorias para tentar ampliar alcance.
+## 5. Conexões editoriais
 
-## 7. Governança e manutenção
+- Dupla excepcionalidade conecta-se a altas habilidades, neurodiversidade, identificação e evidências.
+- Identificação pode conectar-se a família, escola, barreiras e apoios, respeitando o foco de cada conteúdo.
+- Aprendizagem conecta-se a acessibilidade pedagógica, educação inclusiva e recursos práticos.
+- Tecnologia deve explicar qual problema de acesso ou aprendizagem aborda, além de suas limitações.
+- Recursos práticos devem apontar para os conceitos, critérios ou evidências que fundamentam seu uso ou recomendação.
 
-- Esta página é a fonte única de referência para categorias e tags.
-- Mudanças na taxonomia devem ser deliberadas, documentadas e aplicadas aos conteúdos existentes.
-- Fazer auditoria quando houver 10 artigos publicados ou antes, se surgirem duplicações.
-- Ao renomear uma tag, atualizar todos os artigos e verificar se links/arquivos dependem dela.
-- Não criar novas categorias para cada série ou campanha.
-- A taxonomia deve melhorar compreensão e navegação humanas; SEO/GEO é consequência, não critério de inflação.
+As tags ajudam a descobrir essas relações, mas não representam causalidade, diagnóstico, prevalência ou endosso.
+
+## 6. Metadados editoriais
+
+Quando pertinentes, usar campos como `editorial_pillar`, `content_type`, `audience`, `evidence_status`, `sensitivity`, `commercial_status`, `reviewed_at`, `sources` e `related_content`. Não criar páginas públicas para esses campos sem decisão específica.
+
+## 7. Governança
+
+Revisar a taxonomia após os primeiros 10–15 conteúdos publicados ou antes se surgirem duplicações. Ao renomear um slug, atualizar todos os conteúdos e verificar links. A taxonomia deve melhorar a navegação humana; SEO/GEO é consequência, não justificativa para inflar tags.

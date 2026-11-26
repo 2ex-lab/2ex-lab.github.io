@@ -1,0 +1,136 @@
+categories:
+  - slug: knowledge
+    title: "2e Knowledge"
+    url: "/2e-knowledge/"
+    description: "Ciência, conceitos, pesquisas e legislação relacionada à dupla excepcionalidade."
+  - slug: learning
+    title: "2e Learning"
+    url: "/2e-learning/"
+    description: "Aprendizagem, educação, família, escola e inclusão."
+  - slug: tech
+    title: "2e Tech"
+    url: "/2e-tech/"
+    description: "Inteligência artificial, tecnologia assistiva, acessibilidade e experimentação."
+  - slug: resources
+    title: "2e Resources"
+    url: "/2e-resources/"
+    description: "Guias, materiais, bibliotecas, checklists e comparativos."
+tag_groups:
+  - name: "Condições, perfis e conceitos"
+    tags:
+      - slug: dupla-excepcionalidade
+        name: "Dupla excepcionalidade (2e)"
+        description: "Conteúdos centrados na coexistência de altas habilidades e uma ou mais condições ou diferenças."
+      - slug: altas-habilidades
+        name: "Altas habilidades ou superdotação"
+        description: "Conceitos, identificação e desenvolvimento de potencialidades."
+      - slug: neurodiversidade
+        name: "Neurodiversidade"
+        description: "Abordagens e conceitos sobre diversidade neurológica."
+      - slug: autismo
+        name: "Autismo"
+        description: "Conteúdos que tratam especificamente do autismo."
+      - slug: tdah
+        name: "TDAH"
+        description: "Conteúdos que tratam especificamente do transtorno do déficit de atenção com hiperatividade."
+      - slug: dislexia
+        name: "Dislexia"
+        description: "Conteúdos que tratam especificamente da dislexia."
+      - slug: outras-neurodivergencias
+        name: "Outras neurodivergências"
+        description: "Usar com parcimônia quando uma tag mais específica não for adequada."
+      - slug: identificacao
+        name: "Identificação e reconhecimento"
+        description: "Processos, reconhecimento tardio e limites da identificação."
+      - slug: desenvolvimento-de-talentos
+        name: "Desenvolvimento de talentos"
+        description: "Potencialidades, interesses, prática e oportunidades."
+      - slug: criatividade
+        name: "Criatividade"
+        description: "Processos criativos, produção e pensamento criativo."
+  - name: "Aprendizagem, família e inclusão"
+    tags:
+      - slug: aprendizagem
+        name: "Aprendizagem"
+        description: "Processos, estratégias e condições para aprender."
+      - slug: educacao-inclusiva
+        name: "Educação inclusiva"
+        description: "Inclusão, participação, políticas e práticas educacionais."
+      - slug: acessibilidade-pedagogica
+        name: "Acessibilidade pedagógica"
+        description: "Ajustes e desenho de experiências de aprendizagem."
+      - slug: escola
+        name: "Escola"
+        description: "Contextos, relações e organização escolar."
+      - slug: familia
+        name: "Família"
+        description: "Dinâmicas e recursos para famílias, sem expor pessoas."
+      - slug: familia-escola
+        name: "Relação família-escola"
+        description: "Comunicação, colaboração e tomada de decisão conjunta."
+      - slug: barreiras-e-apoios
+        name: "Barreiras e necessidades de apoio"
+        description: "Obstáculos contextuais e apoios, sem reduzir a pessoa a um diagnóstico."
+      - slug: adultos-2e
+        name: "Adultos 2e"
+        description: "Vida adulta, reconhecimento tardio e experiências adultas."
+      - slug: criancas-e-adolescentes
+        name: "Crianças e adolescentes"
+        description: "Conteúdo contextualizado para essas fases, sem presumir homogeneidade."
+  - name: "Tecnologia e experimentação"
+    tags:
+      - slug: inteligencia-artificial
+        name: "Inteligência artificial"
+        description: "IA generativa e outros sistemas de inteligência artificial."
+      - slug: tecnologia-assistiva
+        name: "Tecnologia assistiva"
+        description: "Recursos e sistemas que ampliam acesso, participação ou autonomia."
+      - slug: acessibilidade-digital
+        name: "Acessibilidade digital"
+        description: "Interfaces, documentos, web e conteúdo digital acessível."
+      - slug: ferramentas-digitais
+        name: "Ferramentas digitais"
+        description: "Aplicativos, plataformas e utilitários."
+      - slug: organizacao-e-planejamento
+        name: "Organização e planejamento"
+        description: "Estratégias e ferramentas para organizar tarefas e informações."
+      - slug: experimentacao
+        name: "Experimentação"
+        description: "Testes documentados, métodos, protótipos e resultados com limites explícitos."
+      - slug: ux-e-design
+        name: "UX e design"
+        description: "Experiência do usuário, design inclusivo e desenho de serviços e produtos."
+  - name: "Evidências, direitos e contexto"
+    tags:
+      - slug: pesquisa-cientifica
+        name: "Pesquisa científica"
+        description: "Conteúdos que sintetizam ou discutem estudos."
+      - slug: evidencias
+        name: "Evidências e limitações"
+        description: "O que se sabe, o que permanece incerto e o que não se pode concluir."
+      - slug: legislacao-e-direitos
+        name: "Legislação e direitos"
+        description: "Leis, políticas, direitos e orientações institucionais verificadas."
+      - slug: brasil
+        name: "Contexto brasileiro"
+        description: "Quando o contexto jurídico, institucional, cultural ou educacional brasileiro for central."
+      - slug: relatos-contextualizados
+        name: "Relatos contextualizados"
+        description: "Experiências individuais identificadas como tais, sem generalização."
+  - name: "Recursos e decisões"
+    tags:
+      - slug: guias-praticos
+        name: "Guias práticos"
+        description: "Conteúdo instrucional com etapas ou critérios."
+      - slug: checklists-e-modelos
+        name: "Checklists e modelos"
+        description: "Materiais reutilizáveis e instrumentos."
+      - slug: comparativos
+        name: "Comparativos"
+        description: "Comparações baseadas em critérios explícitos."
+      - slug: bibliotecas-e-diretorios
+        name: "Bibliotecas e diretórios"
+        description: "Coleções curadas e organizadas."
+      - slug: recomendacoes-transparentes
+        name: "Recomendações transparentes"
+        description: "Avaliações e recomendações com critérios e conflitos declarados."

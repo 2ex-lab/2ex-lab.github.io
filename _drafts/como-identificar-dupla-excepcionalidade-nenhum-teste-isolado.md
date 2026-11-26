@@ -4,16 +4,21 @@ title: "Como identificar a dupla excepcionalidade: por que nenhum teste isolado 
 description: "O que revisões científicas e uma pesquisa brasileira recente mostram sobre identificação, avaliação multidimensional, mascaramento e limites dos instrumentos para estudantes 2e."
 permalink: /2e-knowledge/como-identificar-dupla-excepcionalidade/
 categories:
-  - 2e-knowledge
+  - knowledge
 tags:
   - dupla-excepcionalidade
-  - altas-habilidades-superdotacao
+  - altas-habilidades
   - identificacao
-  - avaliacao
-  - mascaramento
   - pesquisa-cientifica
   - evidencias
+  - brasil
+editorial_pillar: understand
+content_type: article
+evidence_status: revisao-por-pares
+commercial_status: editorial
+reviewed_at: 2026-11-26
 ---
+
 
 Identificar a dupla excepcionalidade (2e) é um desafio porque duas dimensões podem coexistir e influenciar a forma como uma pessoa é percebida: potencial elevado em uma ou mais áreas e uma deficiência, transtorno ou dificuldade que pode exigir apoio. Às vezes, a dificuldade chama toda a atenção; em outras situações, o desempenho elevado faz com que as necessidades de apoio passem despercebidas.
 
