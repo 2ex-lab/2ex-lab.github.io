@@ -17,10 +17,11 @@ Esta área reúne conteúdos sobre dupla excepcionalidade (2e), altas habilidade
 - Não tratar pessoas 2e como um grupo homogêneo.
 - Diferenciar associação, causalidade, hipótese e consenso.
 
+{% assign articles = site.categories[page.category_id] %}
 ## Artigos publicados
 
-{% assign articles = site.categories[page.category_id] %}
 {% if articles and articles.size > 0 %}
+<p class="taxonomy-count">{{ articles.size }} conteúdo(s) publicado(s) nesta área. <a href="{{ '/categorias/' | relative_url }}">Ver todas as categorias</a> ou <a href="{{ '/tags/' | relative_url }}">explorar tags</a>.</p>
 {% assign articles = articles | sort: "date" | reverse %}
 <ul class="post-list">
   {% for post in articles %}
@@ -39,5 +40,5 @@ Esta área reúne conteúdos sobre dupla excepcionalidade (2e), altas habilidade
   {% endfor %}
 </ul>
 {% else %}
-<p>Os primeiros artigos desta área estão em preparação.</p>
+<p>Ainda não há artigos publicados nesta área. Consulte o <a href="{{ '/categorias/' | relative_url }}">índice de categorias</a> ou o <a href="{{ '/tags/' | relative_url }}">índice de tags</a>.</p>
 {% endif %}

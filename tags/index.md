@@ -7,6 +7,8 @@ description: Vocabulário controlado do 2ex-lab e conexões entre os assuntos ab
 
 As tags conectam conteúdos de diferentes áreas editoriais. Esta é a lista controlada do projeto; uma tag só é atribuída quando o assunto é material para o conteúdo.
 
+Explore também o [índice de categorias]({{ '/categorias/' | relative_url }}) para conhecer as quatro áreas editoriais.
+
 {% assign tag_groups = site.data.taxonomy.tag_groups %}
 {% for group in tag_groups %}
 ## {{ group.name }}
@@ -18,6 +20,8 @@ As tags conectam conteúdos de diferentes áreas editoriais. Esta é a lista con
     <strong>{{ tag.name | escape }}</strong>
     {% if tagged_posts and tagged_posts.size > 0 %}
     <span class="taxonomy-count"> — {{ tagged_posts.size }} conteúdo(s) publicado(s)</span>
+    {% else %}
+    <span class="taxonomy-count"> — ainda sem conteúdo publicado</span>
     {% endif %}
     <p>{{ tag.description | escape }}</p>
     {% if tagged_posts and tagged_posts.size > 0 %}

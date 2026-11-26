@@ -29,9 +29,11 @@ Tecnologia, inteligência artificial, tecnologia assistiva e experiências com f
 
 Guias, materiais, bibliotecas e recursos selecionados com critérios explícitos.
 
-## Navegue pelos assuntos
+## Navegue por categorias e assuntos
 
-Consulte o [índice de tags]({{ '/tags/' | relative_url }}) para explorar os temas transversais e encontrar conteúdos relacionados entre as quatro áreas.
+Consulte o [índice de categorias]({{ '/categorias/' | relative_url }}) para conhecer as quatro áreas editoriais, comparar seus escopos e encontrar os artigos publicados.
+
+Use o [índice de tags]({{ '/tags/' | relative_url }}) para explorar os temas transversais e descobrir conteúdos relacionados entre as quatro áreas.
 
 ## Como trabalhamos
 
