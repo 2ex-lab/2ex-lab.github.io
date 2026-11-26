@@ -27,7 +27,7 @@ A abordagem respeita diferentes contextos e evita receitas universais. Experiên
     {% if post.tags and post.tags.size > 0 %}
     <p class="category-tags">Assuntos:
       {% for tag in post.tags %}
-      <a href="{{ '/tags/' | relative_url }}#{{ tag | escape }}">{{ tag | replace: "-", " " }}</a>{% unless forloop.last %}, {% endunless %}
+      <a class="tag-link" href="{{ '/tags/' | relative_url }}#{{ tag | escape }}">{{ tag | replace: "-", " " }}</a>{% unless forloop.last %}, {% endunless %}
       {% endfor %}
     </p>
     {% endif %}
