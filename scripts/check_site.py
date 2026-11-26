@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Lightweight, dependency-free structural UX/accessibility checks for the built Jekyll site."""
+"""Dependency-free structural UX/accessibility checks for the built Jekyll site, including control labels."""
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlparse, unquote
@@ -185,4 +185,4 @@ if errors:
     for error in errors:
         print(f" - {error}")
     sys.exit(1)
-print("Aprovação estrutural: idioma, viewport, título, H1, landmarks, imagens, controles, IDs, hierarquia e links internos.")
+print("Aprovação estrutural: idioma, viewport, título, H1, landmarks, imagens, rótulos de controles, IDs, hierarquia e links internos.")
