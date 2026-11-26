@@ -37,4 +37,3 @@ exclude:
   - README.md
   - vendor/
   - .github/
-  - skills/
