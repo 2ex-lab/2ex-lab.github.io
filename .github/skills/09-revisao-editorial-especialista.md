@@ -143,6 +143,10 @@ Procurar resultados divergentes, estudos nulos, críticas, replicações e lacun
 - Conferir front matter, layout, permalink, referências e renderização no Jekyll quando o artigo estiver no repositório.
 - Compartilhamento e navegação não podem prejudicar acessibilidade ou legibilidade.
 
+## Auditoria de taxonomia
+
+Consultar `.github/editorial/taxonomia.md` como fonte canônica. Verificar se o artigo tem exatamente uma categoria principal válida, se cada tag pertence ao vocabulário controlado ou tem proposta justificada, se não há sinônimos redundantes, tags incidentais, categorias múltiplas ou uso de termos para manipular SEO. Conferir coerência entre categoria, área editorial, título, descrição, conteúdo e permalink. Recomendar atualização dos artigos existentes quando uma mudança de taxonomia afetar a consistência do acervo.
+
 ## Protocolo de execução
 
 ### Etapa 1 — Preparação
