@@ -43,6 +43,8 @@ Na amostra dessa revisão:
 - 88,46% ocorreram em contexto educacional;
 - as combinações mais investigadas foram AH/SD com TEA (26,74%) e com transtornos de aprendizagem (20,93%).
 
+O Brasil foi o segundo país com mais estudos na amostra (15,38%, ou oito artigos). As autoras observam, porém, que todos esses trabalhos brasileiros eram estudos de caso: não foram encontrados estudos nacionais com grandes amostras ou desenho longitudinal.
+
 As autoras concluem que, apesar do crescimento do interesse pelo tema, ainda há escassez de pesquisas empíricas. Portanto, esses números descrevem os estudos selecionados pela revisão — não a prevalência de dupla excepcionalidade na população brasileira.
 
 Essa distinção é essencial: contar quantos artigos estudaram uma combinação não revela quantas pessoas apresentam aquela combinação.
@@ -66,6 +68,8 @@ Isso pode ocorrer em diferentes direções:
 - **A dificuldade pode esconder o potencial.** Por exemplo, barreiras de leitura ou escrita podem dificultar que uma habilidade avançada seja percebida em atividades escolares.
 - **O potencial pode esconder a dificuldade.** Uma pessoa pode compensar uma dificuldade com vocabulário, memória, estratégias próprias ou esforço elevado, mantendo resultados que parecem adequados.
 - **As duas dimensões podem se obscurecer mutuamente.** O resultado observado pode não representar nem o potencial nem as necessidades de apoio.
+
+Uma revisão narrativa sistematizada de Kranz, Serry e Snow (2024), focada em crianças com altas habilidades e dislexia, oferece um exemplo específico: habilidades fortes de linguagem oral podem compensar parte das dificuldades de leitura e fazer com que elas não atinjam critérios tradicionais de identificação. Ainda assim, os estudos analisados encontraram dificuldades em leitura de palavras, fluência e ortografia quando comparadas a grupos de controle e a pares com altas habilidades sem dislexia. A revisão destaca que esses resultados se referem a esse perfil específico e que a base de estudos disponível é pequena.
 
 Uma meta-análise de Atmaca e Baloğlu (2022), baseada em 15 estudos e 2.106 participantes, encontrou diferenças entre grupos 2e e grupos de pessoas identificadas apenas como superdotadas em medidas cognitivas específicas. Os autores alertam que interpretar a identificação a partir de um único escore de QI pode ser enganoso, pois um resultado global pode ocultar diferenças entre áreas.
 
