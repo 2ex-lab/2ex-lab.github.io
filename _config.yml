@@ -9,6 +9,8 @@ theme: minima
 
 header_pages:
   - sobre.md
+  - acessibilidade.md
+  - privacidade.md
   - 2e-knowledge/index.md
   - 2e-learning/index.md
   - 2e-tech/index.md
