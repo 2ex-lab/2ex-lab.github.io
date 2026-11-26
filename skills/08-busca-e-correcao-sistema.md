@@ -215,3 +215,84 @@ Se o usuário pedir correção imediata e já tiver autorizado integração, ess
 | Pendências | decisão, risco ou ação futura |
 
 **Regra final:** uma auditoria útil não é a que promete encontrar tudo; é a que deixa claro o que foi examinado, o que foi encontrado, o que foi corrigido e o que ainda não pode ser afirmado.
+
+
+## 8. Limpeza, organização e otimização contínuas (“recolher o lixo”)
+
+A Skill também deve atuar como zeladora técnica do ecossistema: identificar resíduos digitais, reduzir redundâncias, simplificar a estrutura e melhorar desempenho e manutenção. A limpeza não é apenas apontar problemas: quando o item for comprovadamente descartável, reversível e estiver dentro das permissões, a Skill deve preparar e executar a remoção em branch, validar e documentar.
+
+### 8.1 O que procurar
+
+- arquivos temporários, caches, logs locais, arquivos de editor/IDE e sistema operacional sem função no projeto;
+- artefatos de build, pastas de dependências vendorizadas ou saídas geradas que não devam ser versionadas;
+- imagens, fontes, documentos e scripts duplicados ou sem referências;
+- CSS, JavaScript, includes, layouts, snippets, variáveis e dependências sem uso;
+- páginas, rascunhos, anexos e cópias antigas redundantes;
+- comentários obsoletos, código morto, regras substituídas e configurações repetidas;
+- workflows redundantes, etapas repetidas, permissões excessivas e execuções desnecessárias;
+- links, redirecionamentos e referências quebradas após mudanças anteriores;
+- arquivos excessivamente grandes, imagens pesadas, formatos ineficientes e recursos carregados sem necessidade;
+- dívida técnica, complexidade acidental, sobreposição de responsabilidades e documentação desatualizada.
+
+### 8.2 Classificação antes de limpar
+
+Classificar cada candidato como:
+
+1. **Lixo comprovado:** temporário ou gerado, recriável, sem referência funcional e explicitamente fora do versionamento esperado.
+2. **Redundância comprovada:** cópia idêntica ou recurso substituído, com dependências e referências verificadas.
+3. **Possível obsoleto:** sem uso aparente, mas com finalidade incerta, histórico relevante ou referência indireta.
+4. **Ativo necessário:** arquivo ou recurso em uso, fonte de verdade, histórico, backup ou material de referência.
+
+Só os grupos 1 e 2 podem ser removidos automaticamente, e apenas em branch, após confirmar escopo, referências, histórico e possibilidade de restauração. Grupos 3 e 4 não devem ser removidos sem aprovação explícita.
+
+### 8.3 Rotina de limpeza segura
+
+1. Inventariar antes de apagar: caminho, tipo, tamanho, data/última alteração quando disponível e referências encontradas.
+2. Confirmar se o arquivo é gerado, temporário, duplicado ou substituível; não inferir obsolescência apenas pela idade ou ausência de referência textual.
+3. Procurar referências explícitas e indiretas em configurações, Liquid, Markdown, HTML, CSS, JavaScript, workflows, links e histórico Git.
+4. Preservar fontes originais, conteúdo editorial, documentos de marca, Skills, dados de taxonomia e histórico de decisões.
+5. Preferir remoção pequena e agrupada por tipo; não combinar limpeza ampla com refatoração funcional.
+6. Manter a possibilidade de restauração via Git e registrar a lista de caminhos removidos.
+7. Atualizar .gitignore apenas para padrões de resíduos comprovados; não ignorar genericamente arquivos que possam ser fontes.
+8. Se o item for necessário para auditoria ou rastreabilidade, arquivar ou documentar em vez de apagar — e pedir aprovação se isso alterar a organização ou disponibilidade.
+9. Nunca apagar branches, tags, releases, issues, PRs, histórico Git, backups, contas, repositórios, conteúdo publicado ou dados do usuário como “limpeza automática”.
+10. Nunca executar limpeza destrutiva em produção, contas externas ou dispositivos; limitar-se ao repositório e ambientes explicitamente acessíveis.
+
+### 8.4 Otimização sem excesso de engenharia
+
+Priorizar, nesta ordem:
+
+- **Impacto para pessoas:** legibilidade, acessibilidade, navegação, estabilidade e tempo de carregamento.
+- **Simplicidade:** remover duplicação real, reduzir etapas e manter uma única fonte de verdade.
+- **Desempenho:** otimizar imagens e recursos, reduzir CSS/JS desnecessário, evitar chamadas externas e carregamento prematuro.
+- **Manutenção:** reduzir dependências, automações frágeis, configurações repetidas e instruções contraditórias.
+- **Custo operacional:** preferir soluções nativas, gratuitas, assíncronas e de baixa manutenção.
+
+Toda otimização deve declarar o benefício esperado e como será medido. Não fazer micro-otimizações sem impacto demonstrável, não adicionar ferramentas pesadas para medir um site pequeno e não trocar uma solução simples por arquitetura mais complexa sem justificativa.
+
+### 8.5 Portões de segurança para exclusão
+
+A autorização para “limpar”, “recolher o lixo” ou “otimizar” permite remover apenas resíduos técnicos comprovados e recriáveis no repositório, em branch, com diff revisável e testes. Não significa autorização genérica para excluir material de valor incerto.
+
+Exigem confirmação específica:
+- apagar conteúdo editorial, rascunhos, imagens ou documentos cuja finalidade não esteja comprovadamente encerrada;
+- remover versões antigas, backups, arquivos históricos ou materiais de referência;
+- excluir dependências ou componentes com uso indireto ou não testado;
+- apagar branches, tags, releases, issues, PRs ou commits;
+- alterar URLs públicas, eliminar páginas, consolidar conteúdos ou criar redirecionamentos;
+- alterar configurações de conta, permissões, dados, serviços ou recursos externos.
+
+Em caso de dúvida, manter e reportar. A economia de alguns bytes nunca justifica perder conhecimento, histórico, acessibilidade ou continuidade.
+
+### 8.6 Resultado esperado da limpeza
+
+O relatório deve incluir:
+- inventário do que foi analisado;
+- itens removidos, motivo e caminhos;
+- redundâncias consolidadas e referências atualizadas;
+- dependências e código morto removidos;
+- ganhos medidos (por exemplo, redução de tamanho do artefato, número de assets, dependências ou etapas), quando possível;
+- verificações de links, build, acessibilidade e regressão;
+- itens suspeitos preservados e motivo pelo qual aguardam decisão.
+
+**Regra de zeladoria:** deixar o sistema menor, mais claro, mais rápido e mais fácil de manter — sem apagar contexto, comprometer funções ou transformar limpeza em reescrita.
