@@ -5,6 +5,7 @@
   --lab-yellow: #F2D34F;
   --lab-green: #3C8C72;
   --lab-paper: #F7F6F1;
+  --lab-focus: #17324D;
 }
 
 html { scroll-behavior: smooth; }
@@ -35,7 +36,7 @@ button:focus-visible,
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible {
-  outline: 3px solid var(--lab-yellow);
+  outline: 3px solid var(--lab-focus);
   outline-offset: 3px;
   border-radius: 2px;
 }
