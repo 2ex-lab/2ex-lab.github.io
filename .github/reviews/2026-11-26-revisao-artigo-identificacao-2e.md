@@ -1,6 +1,7 @@
 # Revisão editorial — artigo sobre identificação da dupla excepcionalidade
 
 **Data:** 26/11/2026  
+**Versão:** segunda rodada de revisão  
 **Arquivo avaliado:** `_drafts/como-identificar-dupla-excepcionalidade-nenhum-teste-isolado.md`  
 **Público:** famílias, educadores, pessoas neurodivergentes e profissionais interessados em aprendizagem e inclusão  
 **Pergunta central:** o que a pesquisa permite dizer sobre identificação 2e e por que nenhum teste isolado é suficiente?  
@@ -8,70 +9,77 @@
 
 ## 1. Veredito executivo
 
-**Nova rodada necessária antes de publicação.**
+**Aprovável após ajustes menores — pendente de aprovação humana.**
 
-O rascunho está estruturado e usa fontes nacionais e internacionais pertinentes, incluindo dois estudos publicados em 2026. A tese central — identificação exige múltiplas fontes e critérios, sem depender de um único indicador — é sustentada pelas revisões de Ozturk e Tan e de Maki e colegas.
+A segunda rodada resolveu a principal pendência de aprofundamento da fonte brasileira. O artigo integral de Ogeda e Omote (2026) foi consultado na SciELO. A redação agora distingue evidências de validade baseadas na estrutura interna, triagem e diagnóstico; informa o recorte regional e as limitações; e evita chamar o instrumento de teste diagnóstico ou de ferramenta universal.
 
-A principal pendência é de aprofundamento bibliográfico e checagem de escopo: o artigo de Maki et al. foi consultado pelo resumo público, pois o texto integral está restrito. O estudo brasileiro de Ogeda e Omote foi lido na página integral da SciELO e precisa ser descrito sempre como evidência inicial para uma escala específica de AH/SD + TDAH, sem generalização para todos os perfis 2e.
+A busca complementar também identificou instrumentos brasileiros de AH/SD e precocidade — TIAH/S e EIPIAHS-EI. Eles foram incluídos apenas para contextualizar a produção nacional e são explicitamente diferenciados de instrumentos específicos para dupla excepcionalidade.
+
+A revisão de Maki et al. (2026) permanece consultada pelo resumo público, pois o texto integral está sob acesso restrito. As afirmações do artigo foram limitadas ao que o resumo informa, com essa limitação declarada. A revisão de Ozturk e Tan também tem acesso restrito, mas seu resumo completo está disponível na página do periódico e no registro ERIC.
+
+Não há P0 ou P1 pendente identificado nesta rodada. A publicação continua condicionada à leitura e aprovação humana final.
 
 ## 2. Pontos fortes a preservar
 
 - Delimita identificação, rastreamento, avaliação e diagnóstico como conceitos distintos.
 - Evita transformar observações familiares ou escolares em diagnóstico.
 - Não recomenda um instrumento como solução universal.
-- Inclui evidência brasileira recente e explicita limitações geográficas e de população.
+- Integra revisões internacionais e evidência brasileira recente.
+- Distingue instrumentos de AH/SD daqueles voltados à dupla excepcionalidade.
 - Não infere prevalência a partir da frequência de estudos.
 - Mantém linguagem acessível e não comercializa a pauta.
 
-## 3. Achados prioritários
+## 3. Achados da segunda rodada
 
-### P1 — Acesso parcial à revisão de Maki et al. (2026)
-**Local:** seção “O que dizem as revisões sobre os métodos de identificação?” e referência bibliográfica.  
-**Problema:** somente o resumo público do periódico foi consultado.  
-**Impacto:** não é possível auditar detalhes de método, critérios de inclusão, número de estudos, amostras e limitações além do que consta no resumo.  
-**Correção:** o texto foi explicitamente limitado ao que o resumo informa; manter a nota de acesso restrito. Se o texto integral se tornar acessível, revisar antes da publicação.
+### P2 — Precisão da descrição da EIDEAH/TDAH
+**Local:** “O que a pesquisa brasileira recente acrescenta?”  
+**Verificação:** artigo integral da SciELO consultado. O estudo incluiu 271 professores e 271 estudantes avaliados indiretamente, vinculados à Diretoria de Ensino da Região de Marília/SP; 24 escolas participaram. A amostra de estudantes tinha 6 a 15 anos e era majoritariamente da rede estadual. O modelo de 39 itens apresentou ajuste inicial inadequado; a versão reduzida de 32 itens teve melhores indicadores, mas ainda com resíduos. A normatização nacional e a atualização/adaptação do manual não eram objetivos do estudo e foram apontadas para trabalhos futuros.  
+**Status:** corrigido no rascunho. A redação explicita que se trata de evidências de validade baseadas na estrutura interna da versão para professores, não de acurácia diagnóstica ou validação definitiva nacional. Os autores a descrevem como potencial ferramenta de triagem e recomendam cautela e avaliação multidisciplinar abrangente.
 
-### P1 — Escopo da escala brasileira
-**Local:** seção “O que a pesquisa brasileira recente acrescenta?”.  
-**Problema potencial:** leitores podem interpretar a EIDEAH/TDAH como instrumento pronto, normatizado e aplicável a qualquer estudante 2e.  
-**Evidência:** Ogeda e Omote relatam 271 professores de escolas da região de Marília/SP; reduziram o instrumento de 39 para 32 itens; reconhecem necessidade de novos estudos, amostras diversas, atualização/adaptação do manual e normatização. Os autores recomendam cautela e uso no contexto de avaliações multidisciplinares abrangentes.  
-**Correção:** o rascunho já restringe a interpretação à combinação AH/SD + TDAH e descreve a escala como evidência em desenvolvimento. Manter essa formulação na revisão final.
+### P2 — Contextualização de instrumentos nacionais de AH/SD
+**Local:** mesma seção e referências.  
+**Verificação:** foram consultados Nakano e Oliveira (2019), sobre TIAH/S, e Martins e Oliveira (2024), sobre EIPIAHS-EI.  
+**Status:** incluído no rascunho apenas para distinguir instrumentos de triagem/indicadores de AH/SD ou precocidade de um instrumento específico para 2e. Não se atribui a eles capacidade de identificar a coexistência com outra condição.
 
-### P2 — Especificar o caráter das fontes
-**Local:** referências.  
-**Problema:** a revisão de Ozturk e Tan aparece online em 2025 e no volume de 2026; o artigo foi referenciado como 2026, conforme volume.  
-**Correção:** manter ano 2026 e, se necessário, registrar publicação online em 22/10/2025. A revisão de Maki et al. foi publicada online em 26/06/2026 e no volume 49(3), 2026.
+### P2 — Acesso ao texto integral de Maki et al. (2026)
+**Local:** revisão internacional e nota editorial.  
+**Verificação:** página pública da SAGE confirma o resumo e os dados reportados: a maioria dos participantes foi identificada pelas escolas; testes de inteligência eram o método principal para identificar altas habilidades; 60% dos estudos discutiram mascaramento e 7% descreveram como os procedimentos o consideraram.  
+**Status:** limitação explicitada; não se extrapolam detalhes metodológicos além do resumo público.
 
-### P2 — Complementar a dimensão brasileira
-**Local:** artigo como um todo.  
-**Problema:** a evidência brasileira específica ainda é limitada e focada em AH/SD + TDAH.  
-**Correção:** a limitação está explícita. Em nova rodada, buscar mais estudos nacionais sobre avaliação de AH/SD, validade psicométrica e identificação de perfis 2e sem extrapolar instrumentos gerais para diagnóstico 2e.
+### P2 — Data de publicação de Ozturk e Tan
+**Local:** referência bibliográfica.  
+**Verificação:** primeira publicação online em 22/10/2025; volume 37, número 2, publicado em maio de 2026.  
+**Status:** referência mantida como 2026 por volume/edição. Se desejado, acrescentar “publicado online em 2025”.
 
 ## 4. Matriz afirmação–evidência
 
 | Afirmação central | Fonte | Status | Ressalva |
 |---|---|---|---|
-| A 2e é heterogênea e a pesquisa empírica ainda é escassa | Fusaro et al. (2025) | Sustentada | Revisão de 52 artigos, não estudo de prevalência |
-| Não há critério único suficiente para identificar estudantes 2e | Ozturk & Tan (2026) | Sustentada | Revisão de 22 estudos em inglês/turco; 13 formais, 9 combinados |
-| Estudos discutem mascaramento mais frequentemente do que descrevem sua incorporação na identificação | Maki et al. (2026) | Sustentada pelo resumo | 60% discutem; 7% descrevem procedimentos; acesso integral restrito |
-| Escala brasileira AH/SD + TDAH teve modelo reduzido de 39 para 32 itens | Ogeda & Omote (2026) | Sustentada | Evidência da estrutura interna; não equivale à normatização nacional |
-| Amostra brasileira da escala veio de uma única região | Ogeda & Omote (2026) | Sustentada | Região de Marília/SP |
-| Nenhum teste isolado descreve toda a pessoa | Síntese de Ozturk & Tan; Maki et al.; estudo brasileiro | Sustentada como síntese editorial | Evitar afirmar que todos os instrumentos são inadequados |
+| A 2e é heterogênea e a pesquisa empírica ainda é escassa | Fusaro et al. (2025) | Sustentada | Revisão de 52 artigos; não estima prevalência |
+| Nenhum critério isolado deve identificar estudantes 2e | Ozturk & Tan (online 2025; volume 2026) | Sustentada | Revisão de 22 estudos empíricos em inglês/turco |
+| 13 estudos usaram métodos formais; 9 combinaram formais e informais | Ozturk & Tan | Sustentada | Conforme resumo público |
+| 60% discutiram mascaramento e 7% explicaram como a identificação o considerou | Maki et al. (2026) | Sustentada pelo resumo | Texto integral restrito |
+| EIDEAH/TDAH versão para professores passou de 39 para 32 itens | Ogeda & Omote (2026) | Sustentada pelo artigo integral | Evidência de estrutura interna; restaram resíduos |
+| EIDEAH/TDAH não é instrumento diagnóstico isolado nem normatizado nacionalmente neste estudo | Ogeda & Omote | Sustentada | Normatização não foi objetivo; autores sugerem novos estudos |
+| TIAH/S e EIPIAHS-EI tratam de indicadores de AH/SD/precocidade, não da 2e em si | Nakano & Oliveira (2019); Martins & Oliveira (2024) | Sustentada | Não inferir incapacidade de uso em qualquer outro contexto; apenas delimitar o escopo declarado |
+| Nenhum teste isolado descreve toda a pessoa | Síntese de Ozturk & Tan, Maki et al. e estudo brasileiro | Sustentada como síntese editorial | Não afirmar que testes são inúteis ou inadequados |
 
 ## 5. Auditoria bibliográfica
 
-- **Fusaro et al. (2025):** página do periódico e DOI conferidos; resumo consultado.
-- **Ozturk & Tan (2026):** página do periódico e registro ERIC conferidos; resumo informa 22 estudos, 13 formais e 9 combinados.
-- **Maki et al. (2026):** página do periódico conferida; resumo público consultado; texto integral restrito.
-- **Ogeda & Omote (2026):** artigo integral da SciELO consultado; DOI, amostra, análise, conclusões e limitações conferidos.
+- **Fusaro et al. (2025):** DOI e página do periódico já conferidos na primeira rodada; revisão nacional/internacional de 52 estudos.
+- **Ozturk & Tan (2026):** página SAGE e registro ERIC conferidos; 22 estudos, 13 formais e 9 combinados; online first 22/10/2025.
+- **Maki et al. (2026):** página SAGE e resumo conferidos; online first 26/06/2026, volume 49(3), pp. 246–273; texto integral restrito.
+- **Ogeda & Omote (2026):** artigo integral SciELO consultado; DOI, método, amostra, análise, resultados e limitações conferidos.
+- **Nakano & Oliveira (2019):** artigo/registro PePSIC consultado; estudo de estrutura fatorial da triagem de indicadores de AH/SD.
+- **Martins & Oliveira (2024):** página do periódico e DOI conferidos; estudo sobre instrumento para precocidade e indicadores de AH/SD na Educação Infantil.
 
-## 6. Rubrica de qualidade preliminar
+## 6. Rubrica de qualidade — segunda rodada
 
 | Dimensão | Nota | Justificativa |
 |---|---:|---|
-| Precisão factual e rastreabilidade | 4 | Fontes rastreáveis; uma revisão baseada somente em resumo |
-| Qualidade e adequação das evidências | 4 | Duas revisões sistemáticas e um estudo brasileiro de validação |
-| Rigor e proporcionalidade | 4 | Limites de escopo e generalização explicitados |
+| Precisão factual e rastreabilidade | 4 | Fontes rastreáveis; Maki consultado pelo resumo |
+| Qualidade e adequação das evidências | 4 | Revisões sistemáticas e estudos brasileiros diretamente delimitados |
+| Rigor e proporcionalidade | 4 | Limites de escopo, amostra e generalização explicitados |
 | Pergunta e contribuição original | 4 | Traduz pesquisa recente em quadro de avaliação compreensível |
 | Coerência e estrutura | 4 | Progressão lógica e distinção entre conceitos |
 | Linguagem e acessibilidade | 4 | Texto acessível, exemplos hipotéticos identificados |
@@ -81,22 +89,22 @@ A principal pendência é de aprofundamento bibliográfico e checagem de escopo:
 
 As notas são diagnósticas, não certificação. Não calcular média.
 
-## 7. Checklist de segunda rodada
+## 7. Checklist de publicação — ainda não executado
 
-- [ ] Confirmar metadados completos de autores e páginas de Maki et al. no texto integral, se acessível.
-- [ ] Fazer busca final de literatura brasileira sobre identificação e validação de instrumentos 2e.
-- [ ] Conferir se a redação não transforma rastreamento em diagnóstico.
-- [ ] Reconfirmar DOI, volume, número e páginas de todas as referências.
-- [ ] Validar categoria única `2e-knowledge` e tags conforme taxonomia.
-- [ ] Executar `scripts/check_site.py` após aprovação e publicação, não enquanto draft.
-- [ ] Revisão humana final do conteúdo e decisão explícita de publicação.
+- [x] Fontes e DOI conferidos nas páginas indicadas.
+- [x] Limites da fonte Maki et al. explicitados.
+- [x] Escopo e limitações do estudo brasileiro corrigidos.
+- [x] Categoria única `2e-knowledge` e tags verificadas contra a taxonomia.
+- [ ] Leitura e aprovação humana final do artigo.
+- [ ] Após aprovação: mover para `_posts/`, executar `scripts/check_site.py`, revisar visualmente e confirmar deploy.
+- [ ] Confirmar links internos e compartilhar o artigo publicado.
 
 ## 8. Pendências humanas
 
-- Aprovar ou solicitar ajustes ao rascunho.
-- Decidir se deseja manter a pauta na janela de 08/12/2026, adiá-la ou substituir por outra.
+- Ler a versão atual do rascunho e aprovar ou solicitar ajustes.
+- Decidir se a janela-alvo de 08/12/2026 permanece adequada.
 - Não publicar até aprovação explícita.
 
 ## 9. Recomendação final
 
-Manter o texto em `_drafts/`. Próxima etapa pequena: revisão de segunda rodada com foco em fontes brasileiras adicionais e checagem de escopo do instrumento EIDEAH/TDAH.
+O rascunho pode ser apresentado ao responsável editorial para aprovação humana. Manter em `_drafts/` até autorização explícita. Nenhuma alteração foi feita em conteúdo já publicado.
