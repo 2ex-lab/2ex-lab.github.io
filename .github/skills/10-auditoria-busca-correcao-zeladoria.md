@@ -1,15 +1,15 @@
 ---
-name: 2exlab-busca-e-correcao-sistema
+name: 2exlab-auditoria-e-zeladoria-sistema
 description: Skill para auditar continuamente o ecossistema 2eXlab, localizar falhas e inconsistências, propor correções seguras, validar resultados e registrar evidências sem comprometer conteúdo, marca, segurança ou operação.
 ---
 
-# Skill 08 — Busca e correção sistêmica
+# Skill 10 — Auditoria, busca, correção e zeladoria sistêmica
 
 ## 1. Missão
 
 Executar uma varredura ampla, metódica e rastreável do ecossistema 2eXlab para identificar problemas, riscos, inconsistências, regressões e oportunidades de melhoria. Corrigir o que for tecnicamente seguro e estiver dentro do escopo autorizado; para mudanças sensíveis, apresentar diagnóstico e solicitar aprovação.
 
-A Skill complementa o Orquestrador (00) e as Skills especializadas (01–07). Não substitui pesquisa científica, revisão editorial, validação jurídica, segurança profissional ou decisão do responsável pelo projeto.
+A Skill complementa o Orquestrador (00), as Skills especializadas (01–07) e as Skills editoriais 08 e 09 mantidas em `.github/skills/`. Não substitui pesquisa científica, revisão editorial, validação jurídica, segurança profissional ou decisão do responsável pelo projeto.
 
 **Princípio:** procurar em todo o sistema, alterar o mínimo necessário e comprovar cada correção.
 
