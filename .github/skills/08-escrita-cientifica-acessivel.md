@@ -144,6 +144,12 @@ Regras:
 - [ ] Links, acessibilidade, autoria e datas foram verificados?
 - [ ] O artigo foi revisado e aprovado por uma pessoa antes da publicação?
 
+## Taxonomia e metadados editoriais
+
+Antes de redigir, selecionar uma única categoria principal entre `2e-knowledge`, `2e-learning`, `2e-tech` e `2e-resources`. Atribuir de 3 a 6 tags pertinentes, quando aplicável, usando os termos canônicos em kebab-case definidos em `.github/editorial/taxonomia.md`. Não inventar sinônimos, tags incidentais ou categorias adicionais. A taxonomia deve refletir o conteúdo e facilitar navegação humana; não deve ser inflada para SEO.
+
+Conferir no front matter: título, descrição, data real de publicação, permalink estável, categoria e tags. Se a taxonomia ainda não tiver termo adequado, propor inclusão justificada em vez de criar tag ad hoc.
+
 ## Formato de entrega da Skill
 1. Pergunta e recorte.
 2. Estratégia e data da busca.
