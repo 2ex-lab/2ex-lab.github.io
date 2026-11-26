@@ -27,8 +27,9 @@ Não apresentaremos ferramentas como testadas ou recomendadas sem avaliação do
 
 ## Recursos publicados
 
-{% assign articles = site.categories[page.category_id] | sort: "date" | reverse %}
+{% assign articles = site.categories[page.category_id] %}
 {% if articles and articles.size > 0 %}
+{% assign articles = articles | sort: "date" | reverse %}
 <ul class="post-list">
   {% for post in articles %}
   <li><h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3><p>{{ post.description | default: post.excerpt | strip_html | normalize_whitespace }}</p></li>
