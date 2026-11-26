@@ -17,7 +17,7 @@ Explore também o [índice de categorias]({{ '/categorias/' | relative_url }}) p
   {% for tag in group.tags %}
   {% assign tagged_posts = site.tags[tag.slug] %}
   <li id="{{ tag.slug }}">
-    <strong>{{ tag.name | escape }}</strong>
+    <strong class="tag-name">{{ tag.name | escape }}</strong>
     {% if tagged_posts and tagged_posts.size > 0 %}
     <span class="taxonomy-count"> — {{ tagged_posts.size }} conteúdo(s) publicado(s)</span>
     {% else %}
