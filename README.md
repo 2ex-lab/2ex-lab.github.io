@@ -6,7 +6,7 @@ Laboratório independente de conhecimento e experimentação sobre dupla excepci
 
 ## Estado do projeto
 
-Em preparação. Este repositório contém a estrutura técnica inicial do site. O GitHub Pages ainda não foi habilitado e nenhum conteúdo editorial definitivo foi publicado.
+Em preparação. Este repositório contém a estrutura técnica inicial do site. O GitHub Pages está configurado com a fonte **GitHub Actions**, mas o site foi despublicado deliberadamente e não deve ser implantado até aprovação humana explícita.
 
 ## Áreas editoriais
 
@@ -28,7 +28,7 @@ O site é um único projeto editorial, não quatro sites separados.
 
 ## Tecnologia
 
-GitHub + GitHub Pages + Jekyll + GitHub Actions. O workflow atual valida a compilação; não realiza implantação/publicação.
+GitHub + GitHub Pages + Jekyll + GitHub Actions. O único workflow presente, `.github/workflows/build.yml`, valida a compilação do Jekyll. Ele não contém etapas de implantação/publicação. Não configurar um workflow de deploy sem aprovação explícita.
 
 ## Desenvolvimento local
 
@@ -45,5 +45,5 @@ Acesse `http://localhost:4000`.
 
 1. Revisar a estrutura e o conteúdo institucional.
 2. Validar acessibilidade, responsividade e compilação.
-3. Decidir separadamente se/quando habilitar GitHub Pages.
+3. Decidir separadamente se/quando habilitar a implantação do GitHub Pages.
 4. Publicar somente após aprovação humana.
