@@ -203,3 +203,9 @@ blockquote {
     text-align: left;
   }
 }
+
+/* Hashtag visual identity for controlled tags; slugs and fragment URLs stay unchanged. */
+.tag-link::before,
+.tag-name::before {
+  content: "#";
+}

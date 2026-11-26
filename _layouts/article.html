@@ -20,7 +20,7 @@ layout: page
             {% endif %}
           {% endfor %}
         {% endfor %}
-        <li><a href="{{ '/tags/' | relative_url }}#{{ tag | escape }}">{{ tag_label | escape }}</a></li>
+        <li><a class="tag-link" href="{{ '/tags/' | relative_url }}#{{ tag | escape }}">{{ tag_label | escape }}</a></li>
       {% endfor %}
     </ul>
   </div>
