@@ -7,12 +7,12 @@ date: 2026-11-26
 categories:
   - 2e-knowledge
 tags:
-  - dupla excepcionalidade
-  - altas habilidades
-  - superdotação
+  - dupla-excepcionalidade
+  - altas-habilidades-superdotacao
   - neurodiversidade
-  - identificação
-  - pesquisa científica
+  - identificacao
+  - mascaramento
+  - pesquisa-cientifica
 ---
 
 Uma pessoa pode apresentar altas habilidades ou potencial elevado em uma área e, ao mesmo tempo, enfrentar uma deficiência, transtorno ou dificuldade significativa em outra dimensão. Essa coexistência é chamada de **dupla excepcionalidade**, ou **2e**.
