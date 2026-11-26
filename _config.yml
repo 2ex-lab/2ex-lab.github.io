@@ -1,0 +1,33 @@
+title: "2ex-lab"
+description: "Conhecimento, experimentação e possibilidades sobre dupla excepcionalidade, neurodiversidade, aprendizagem e acessibilidade."
+url: "https://2ex-lab.github.io"
+baseurl: ""
+lang: "pt-BR"
+timezone: "America/Recife"
+
+theme: minima
+
+header_pages:
+  - sobre.md
+  - 2e-knowledge/index.md
+  - 2e-learning/index.md
+  - 2e-tech/index.md
+  - 2e-resources/index.md
+
+minima:
+  skin: classic
+
+markdown: kramdown
+permalink: /:categories/:title/
+show_excerpts: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+  - .github/
