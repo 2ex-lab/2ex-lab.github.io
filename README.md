@@ -12,8 +12,6 @@ A publicação é automatizada pelo workflow `.github/workflows/pages.yml`, acio
 
 O workflow `.github/workflows/build.yml` realiza validações de compilação e estrutura em eventos de integração, sem executar a publicação.
 
-O primeiro artigo de 2e Knowledge já foi publicado após revisão editorial assistida e aprovação humana. As demais áreas editoriais avançarão conforme pesquisa, revisão e capacidade operacional. A aprovação de publicação de um artigo não implica aprovação automática de conteúdos futuros.
-
 ## Áreas editoriais
 
 - **2e Knowledge** — ciência, conceitos e pesquisas.
@@ -23,18 +21,11 @@ O primeiro artigo de 2e Knowledge já foi publicado após revisão editorial ass
 
 O site é um único projeto editorial, não quatro sites separados.
 
-## Taxonomia editorial
+## Taxonomia editorial implementada
 
-A classificação editorial usa quatro categorias principais correspondentes às áreas do site (`2e-knowledge`, `2e-learning`, `2e-tech` e `2e-resources`) e um vocabulário controlado de tags transversais. A referência oficial, com critérios de atribuição e governança, está em [`.github/editorial/taxonomia.md`](.github/editorial/taxonomia.md). Cada artigo recebe uma categoria principal e apenas tags materialmente pertinentes.
+A taxonomia utiliza quatro categorias internas (`knowledge`, `learning`, `tech`, `resources`), apresentadas publicamente como as quatro áreas editoriais acima, e um vocabulário controlado de 36 tags transversais. A fonte estruturada está em `_data/taxonomy.yml`; a referência editorial e as regras de atribuição estão em [`.github/editorial/taxonomia.md`](.github/editorial/taxonomia.md). O [índice de tags](/tags/) apresenta os assuntos e os conteúdos associados. As páginas de área listam automaticamente os artigos publicados na respectiva categoria.
 
-## Princípios
-
-- Priorizar conhecimento, experimentação e utilidade pública.
-- Distinguir evidências, hipóteses, controvérsias, experiências e opiniões.
-- Valorizar acessibilidade, privacidade e transparência.
-- Preferir soluções simples, gratuitas, reversíveis e de baixa manutenção.
-- Não diagnosticar, prescrever ou prometer resultados.
-- Não publicar conteúdo editorial definitivo sem revisão humana.
+Cada artigo recebe uma categoria principal e somente tags materialmente pertinentes. Os cinco pilares editoriais são metadados transversais, não categorias.
 
 ## Tecnologia
 
@@ -56,7 +47,7 @@ Acesse `http://localhost:4000`.
 
 ## Próximas etapas
 
-1. Concluir a auditoria pública: páginas, links, navegação móvel, HTTPS, `robots.txt` e `sitemap.xml`.
-2. Registrar e tratar eventuais barreiras de acessibilidade que não sejam cobertas pelas verificações automatizadas.
-3. Manter as páginas institucionais e a documentação coerentes com o estado efetivo do site.
-4. Planejar os primeiros conteúdos editoriais seguindo os critérios de pesquisa, revisão humana e transparência do projeto.
+1. Executar o build e as verificações de estrutura na branch de implementação.
+2. Conferir a renderização das páginas de categoria, do índice de tags e dos chips de tags em dispositivos móveis.
+3. Configurar o e-mail institucional de contato no rodapé após confirmação do endereço exato.
+4. Revisar o resultado antes de integrar as mudanças à branch `main`.

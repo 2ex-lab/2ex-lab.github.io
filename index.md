@@ -29,6 +29,10 @@ Tecnologia, inteligência artificial, tecnologia assistiva e experiências com f
 
 Guias, materiais, bibliotecas e recursos selecionados com critérios explícitos.
 
+## Navegue pelos assuntos
+
+Consulte o [índice de tags]({{ '/tags/' | relative_url }}) para explorar os temas transversais e encontrar conteúdos relacionados entre as quatro áreas.
+
 ## Como trabalhamos
 
 - Diferenciamos evidência, hipótese, controvérsia, experiência e opinião.
@@ -37,4 +41,4 @@ Guias, materiais, bibliotecas e recursos selecionados com critérios explícitos
 - Tratamos acessibilidade e privacidade como princípios transversais.
 - Tornamos relações comerciais transparentes.
 
-<small>Este site está em preparação. O conteúdo editorial será incluído após pesquisa e revisão humana.</small>
+<small>O site está em desenvolvimento contínuo. Conteúdos são publicados após pesquisa e revisão humana.</small>

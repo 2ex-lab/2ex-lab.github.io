@@ -5,6 +5,8 @@ baseurl: ""
 lang: "pt-BR"
 timezone: "America/Recife"
 
+contact_email: "2exlab.studio@gmail.com"
+
 theme: minima
 
 header_pages:

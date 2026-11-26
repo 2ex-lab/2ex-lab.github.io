@@ -5,15 +5,22 @@ description: "Uma introdução baseada em revisões científicas brasileiras e i
 permalink: /2e-knowledge/dupla-excepcionalidade-o-que-a-ciencia-sabe/
 date: 2026-11-26
 categories:
-  - 2e-knowledge
+  - knowledge
 tags:
   - dupla-excepcionalidade
-  - altas-habilidades-superdotacao
+  - altas-habilidades
   - neurodiversidade
   - identificacao
-  - mascaramento
   - pesquisa-cientifica
+  - evidencias
+  - brasil
+editorial_pillar: understand
+content_type: article
+evidence_status: revisao-por-pares
+commercial_status: editorial
+reviewed_at: 2026-11-26
 ---
+
 
 Uma pessoa pode apresentar altas habilidades ou potencial elevado em uma área e, ao mesmo tempo, enfrentar uma deficiência, transtorno ou dificuldade significativa em outra dimensão. Essa coexistência é chamada de **dupla excepcionalidade**, ou **2e**.
 
