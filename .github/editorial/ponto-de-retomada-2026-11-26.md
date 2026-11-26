@@ -41,6 +41,7 @@ Cada artigo recebe uma categoria principal: `2e-knowledge`, `2e-learning`, `2e-t
 Skills no repositório:
 - `.github/skills/08-escrita-cientifica-acessivel.md`
 - `.github/skills/09-revisao-editorial-especialista.md`
+- `.github/skills/10-auditoria-busca-correcao-zeladoria.md` — auditoria técnica, correção, limpeza e otimização sistêmica.
 
 As oito Skills originais permanecem em Markdown; não são Skills nativas instaladas automaticamente. Skill 01 — Pesquisa 2e — foi consultada e aplicada nesta retomada.
 
