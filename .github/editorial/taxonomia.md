@@ -30,7 +30,7 @@ Os cinco pilares são dimensões transversais, não categorias nem tags:
 
 Podem ser registrados no campo `editorial_pillar`; não geram arquivos de navegação automaticamente.
 
-## 3. Vocabulário controlado de 35 tags
+## 3. Vocabulário controlado de 36 tags
 
 Os slugs e rótulos oficiais ficam em `_data/taxonomy.yml`. O índice público agrupa os termos por assunto e mostra os conteúdos publicados associados.
 
