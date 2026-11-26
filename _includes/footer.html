@@ -1,0 +1,26 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <nav class="footer-navigation" aria-label="Navegação do rodapé">
+      <h2 class="footer-navigation-heading">Explore o 2ex-lab</h2>
+      <ul class="footer-navigation-list">
+        <li><a href="{{ '/' | relative_url }}">Início</a></li>
+        <li><a href="{{ '/sobre/' | relative_url }}">Sobre</a></li>
+        <li><a href="{{ '/2e-knowledge/' | relative_url }}">2e Knowledge</a></li>
+        <li><a href="{{ '/2e-learning/' | relative_url }}">2e Learning</a></li>
+        <li><a href="{{ '/2e-tech/' | relative_url }}">2e Tech</a></li>
+        <li><a href="{{ '/2e-resources/' | relative_url }}">2e Resources</a></li>
+        <li><a href="{{ '/acessibilidade/' | relative_url }}">Acessibilidade</a></li>
+        <li><a href="{{ '/privacidade/' | relative_url }}">Privacidade</a></li>
+      </ul>
+    </nav>
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <p class="footer-description">{{ site.description | escape }}</p>
+      </div>
+      <div class="footer-col footer-col-2">
+        <p><a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a></p>
+      </div>
+    </div>
+    <p class="footer-copyright"><small>© {{ site.time | date: "%Y" }} {{ site.title | escape }}. Conhecimento, experimentação e possibilidades.</small></p>
+  </div>
+</footer>
