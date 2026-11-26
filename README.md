@@ -45,9 +45,13 @@ bundle exec jekyll serve
 
 Acesse `http://localhost:4000`.
 
+## Skills e documentação operacional
+
+As Skills operacionais e editoriais ficam em `.github/skills/` e são documentos Markdown versionados; não são Skills nativas instaladas automaticamente no ChatGPT. O ponto de retomada do projeto está em `.github/editorial/ponto-de-retomada-2026-11-26.md`.
+
 ## Próximas etapas
 
-1. Executar o build e as verificações de estrutura na branch de implementação.
-2. Conferir a renderização das páginas de categoria, do índice de tags e dos chips de tags em dispositivos móveis.
-3. Configurar o e-mail institucional de contato no rodapé após confirmação do endereço exato.
-4. Revisar o resultado antes de integrar as mudanças à branch `main`.
+1. Obter a decisão humana sobre o rascunho do segundo artigo, mantendo-o em `_drafts/` até aprovação explícita.
+2. Manter o ciclo editorial quinzenal e a agenda flexível, sem publicação automática.
+3. Continuar a auditoria técnica e a zeladoria do repositório com a Skill 10, registrando evidências e preservando conteúdo e histórico.
+4. Conferir build, verificações estruturais e deploy após mudanças integradas.
