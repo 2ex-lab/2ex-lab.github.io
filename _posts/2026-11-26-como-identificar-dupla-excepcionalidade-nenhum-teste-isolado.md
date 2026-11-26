@@ -1,0 +1,132 @@
+---
+layout: article
+title: "Como identificar a dupla excepcionalidade: por que nenhum teste isolado conta toda a história"
+description: "O que revisões científicas e uma pesquisa brasileira recente mostram sobre identificação, avaliação multidimensional, mascaramento e limites dos instrumentos para estudantes 2e."
+permalink: /2e-knowledge/como-identificar-dupla-excepcionalidade/
+date: 2026-11-26
+categories:
+  - knowledge
+tags:
+  - dupla-excepcionalidade
+  - altas-habilidades
+  - identificacao
+  - pesquisa-cientifica
+  - evidencias
+  - brasil
+editorial_pillar: understand
+content_type: article
+evidence_status: revisao-por-pares
+commercial_status: editorial
+reviewed_at: 2026-11-26
+---
+
+
+Identificar a dupla excepcionalidade (2e) é um desafio porque duas dimensões podem coexistir e influenciar a forma como uma pessoa é percebida: potencial elevado em uma ou mais áreas e uma deficiência, transtorno ou dificuldade que pode exigir apoio. Às vezes, a dificuldade chama toda a atenção; em outras situações, o desempenho elevado faz com que as necessidades de apoio passem despercebidas.
+
+A pesquisa disponível aponta uma orientação consistente: **não se deve concluir que uma pessoa é — ou não é — 2e com base em um único teste, nota, comportamento ou relato**. A identificação precisa considerar diferentes fontes de informação, contextos e dimensões de funcionamento. Isso não significa somar indiscriminadamente instrumentos, nem substituir uma avaliação profissional por uma lista informal de sinais.
+
+Este artigo explica o que as pesquisas recentes permitem afirmar, o que ainda está em construção e como famílias e escolas podem organizar observações úteis sem tentar realizar um diagnóstico por conta própria.
+
+## Por que a identificação é tão complexa?
+
+A dupla excepcionalidade não corresponde a um perfil único. As combinações entre altas habilidades/superdotação e condições como transtorno do espectro autista (TEA), transtorno do déficit de atenção com hiperatividade (TDAH), transtornos específicos de aprendizagem e deficiências sensoriais ou físicas são variadas. As manifestações também mudam conforme idade, ambiente, tarefa, oportunidades e apoios disponíveis.
+
+Essa heterogeneidade produz um problema: um procedimento que identifica bem uma dimensão pode não captar a outra. Uma avaliação concentrada nas dificuldades pode deixar de investigar potencialidades. Uma avaliação voltada apenas ao desempenho elevado pode não perceber barreiras persistentes. E um resultado médio ou aparentemente típico pode esconder diferenças importantes entre áreas.
+
+A revisão brasileira e internacional de Fusaro e colegas (2025), que selecionou 52 estudos empíricos publicados entre 2014 e 2025, descreve a 2e como um grupo heterogêneo e destaca a escassez de pesquisas empíricas. Os estudos analisados estavam concentrados sobretudo nos Estados Unidos e em contextos educacionais; os resultados não devem ser interpretados como estimativa de prevalência na população.
+
+## O que dizem as revisões sobre os métodos de identificação?
+
+Uma revisão sistemática de Ozturk e Tan, publicada em 2026 no *Journal of Advanced Academics*, examinou 22 estudos empíricos sobre identificação de estudantes 2e. Treze estudos utilizaram apenas métodos formais de avaliação; nove combinaram métodos formais e informais. Os autores observaram que os estudos recorriam a múltiplos critérios e concluíram que nenhum critério isolado é suficiente para identificar a dupla excepcionalidade.
+
+Uma segunda revisão sistemática, de Maki e colegas, publicada em 2026 no *Journal for the Education of the Gifted*, analisou práticas de identificação e avaliação, características dos participantes e o chamado efeito de mascaramento. Segundo o resumo publicado, a maioria dos participantes havia sido identificada como 2e pelas próprias escolas, e não por profissionais médicos ou psicológicos; testes de inteligência eram o método principal para identificar altas habilidades. Embora 60% dos estudos discutissem mascaramento, apenas 7% descreviam como os procedimentos de identificação levavam esse efeito em conta.
+
+Esses resultados não demonstram que testes de inteligência sejam inadequados. Eles mostram que seu uso isolado pode deixar perguntas sem resposta e que a literatura ainda precisa explicar melhor como considerar o mascaramento nos processos de identificação.
+
+## O que pode compor uma avaliação mais abrangente?
+
+A avaliação deve responder a perguntas concretas sobre a pessoa, e não apenas produzir uma classificação. Dependendo da questão investigada, diferentes fontes podem contribuir:
+
+- **Histórico de desenvolvimento e aprendizagem:** trajetória, interesses persistentes, experiências anteriores, mudanças de desempenho e apoios já utilizados.
+- **Produções e atividades reais:** trabalhos, projetos, resolução de problemas, expressão artística, linguagem, raciocínio ou outras áreas em que o potencial possa aparecer.
+- **Observações em mais de um contexto:** relatos de família, escola e, quando pertinente, de outros ambientes. Diferenças entre contextos também são informação relevante.
+- **Desempenho em diferentes domínios:** resultados acadêmicos, cognitivos ou funcionais não devem ser reduzidos automaticamente a uma média geral.
+- **Instrumentos apropriados à pergunta:** testes e escalas podem contribuir quando têm evidências de validade adequadas para a finalidade, população e contexto em que serão usados.
+- **Barreiras e condições de realização:** formato da tarefa, tempo, linguagem, acessibilidade, ambiente sensorial, oportunidades de aprendizagem e apoios oferecidos.
+
+A lista não é um protocolo diagnóstico nem uma sequência obrigatória. A seleção de procedimentos depende da pergunta de avaliação, da idade, do contexto e das competências dos profissionais envolvidos. A combinação de informações precisa ser interpretada criticamente: mais dados não garantem, por si só, uma conclusão melhor.
+
+## Por que observar mais de um contexto importa?
+
+Uma habilidade pode aparecer com clareza em uma atividade escolhida pela própria pessoa e ficar menos visível em uma tarefa cronometrada ou muito dependente de leitura e escrita. Da mesma forma, uma dificuldade pode ser pouco percebida em um ambiente estruturado e tornar-se mais evidente em situações com muitas instruções, transições ou estímulos.
+
+Por isso, diferenças entre casa, escola e outros ambientes não devem ser tratadas automaticamente como contradição ou falta de consistência. Elas podem indicar que a demanda, o apoio, a familiaridade ou as condições de participação mudam de um contexto para outro.
+
+O objetivo é compreender o padrão e as condições em que ele aparece, sem presumir que um relato isolado represente toda a experiência da pessoa.
+
+## O que a pesquisa brasileira recente acrescenta?
+
+Em 2026, Ogeda e Omote publicaram na *Revista Brasileira de Educação Especial* um estudo sobre evidências de validade da Escala para Identificação do(a) Estudante Duplamente Excepcional — Altas Habilidades com TDAH (EIDEAH/TDAH), versão para professores.
+
+Esse estudo dialoga com uma produção brasileira mais ampla sobre instrumentos para identificar altas habilidades/superdotação. Há, por exemplo, pesquisas sobre a Triagem de Indicadores de Altas Habilidades/Superdotação (TIAH/S) e sobre a Escala de Identificação de Precocidade e Indicadores de Altas Habilidades/Superdotação para a Educação Infantil (EIPIAHS-EI). Esses instrumentos têm foco em indicadores de AH/SD ou precocidade; não foram concebidos para identificar, por si, a coexistência entre altas habilidades e uma condição associada. Essa distinção evita tratar uma escala de AH/SD como se fosse um instrumento específico de 2e.
+
+Participaram 271 professores de escolas vinculadas à Diretoria de Ensino da Região de Marília (SP), que avaliaram estudantes do 1º ao 9º ano. As escolas convidadas pertenciam a essa única diretoria; 24 aceitaram participar. Cerca de 600 professores participaram de uma formação sobre o tema, mas 271 responderam à escala. Os estudantes avaliados tinham entre 6 e 15 anos, e a amostra era majoritariamente da rede estadual.
+
+O modelo original tinha 39 itens. A análise fatorial confirmatória indicou ajuste inadequado para essa amostra; os autores propuseram um modelo reduzido de 32 itens, com indicadores de ajuste melhores. Ainda assim, os próprios autores apontam resíduos, possível influência de características da amostra e de diferenças na formação dos professores, além da necessidade de novos estudos com grupos mais diversos.
+
+É importante compreender exatamente o que foi investigado: o estudo examinou evidências de validade baseadas na estrutura interna da versão para professores da EIDEAH/TDAH. Não foi um estudo de acurácia diagnóstica nem uma validação definitiva para todo o país. Os autores afirmam que a normatização para a população brasileira e a atualização/adaptação do manual não faziam parte dos objetivos desse trabalho e ficam para projetos futuros. Na conclusão, classificam a escala reduzida como ferramenta potencial de triagem, recomendando cautela e uso no contexto de avaliações multidisciplinares mais abrangentes.
+
+Portanto, o estudo representa um avanço brasileiro relevante, mas restrito a uma combinação específica — altas habilidades e TDAH — e a uma amostra de professores de uma região. Não autoriza tratar a escala como teste universal de dupla excepcionalidade, nem como ferramenta para autodiagnóstico ou diagnóstico escolar isolado.
+
+## O que famílias e escolas podem registrar?
+
+Famílias e educadores podem contribuir reunindo descrições concretas, sem tentar atribuir rótulos. Um registro útil costuma separar:
+
+1. **O que foi observado:** descrição específica da atividade ou situação, evitando adjetivos vagos.
+2. **Em que condições ocorreu:** ambiente, instruções, tempo, recursos, acessibilidade e apoios disponíveis.
+3. **O que a pessoa demonstrou:** interesses, estratégias, conhecimentos, facilidade ou produção observável.
+4. **Onde houve barreiras:** tarefas ou demandas que geraram dificuldade, esforço elevado ou necessidade de apoio.
+5. **Se o padrão se repete:** frequência, duração e variação entre contextos, sem transformar um episódio isolado em característica permanente.
+
+Por exemplo, em vez de registrar apenas “tem dificuldade de escrita”, pode ser mais informativo descrever que a pessoa explica oralmente ideias complexas, mas produz textos curtos quando precisa escrever à mão sob limite de tempo. Esse exemplo é hipotético: não indica, por si só, uma condição ou perfil 2e.
+
+Registros desse tipo podem ajudar a formular perguntas para a escola e para profissionais qualificados. Não substituem avaliação, não confirmam altas habilidades ou deficiência e não devem ser usados para pressionar a pessoa a demonstrar desempenho.
+
+## Perguntas que ajudam a evitar conclusões precipitadas
+
+- A avaliação investigou tanto potencialidades quanto dificuldades?
+- Os instrumentos utilizados são adequados à finalidade e à população avaliada?
+- Foram consideradas informações de mais de uma fonte e, quando possível, de diferentes contextos?
+- Os resultados foram analisados por domínio, sem depender apenas de um escore global?
+- Foram consideradas as condições de acessibilidade, as oportunidades de aprendizagem e os apoios já oferecidos?
+- O relatório diferencia observações, resultados de instrumentos, hipóteses e conclusões?
+- As incertezas e limitações foram explicitadas?
+
+Essas perguntas não constituem uma lista de requisitos legais ou um protocolo clínico. São pontos de reflexão para uma conversa informada sobre a qualidade e o alcance de um processo de avaliação.
+
+## O que ainda não sabemos?
+
+As revisões de 2025 e 2026 mostram que a pesquisa sobre identificação 2e está avançando, mas ainda apresenta limitações. Há diferenças entre definições, instrumentos, populações e práticas. O mascaramento é discutido com frequência maior do que é efetivamente incorporado aos procedimentos descritos. No Brasil, estudos de validação específicos estão surgindo, mas ainda são necessários trabalhos com outras regiões, perfis e amostras.
+
+Também é importante distinguir três coisas: rastreamento, avaliação e diagnóstico. Uma escala de rastreamento pode ajudar a sinalizar aspectos que merecem investigação; isso não equivale a uma avaliação abrangente. E a interpretação diagnóstica, quando pertinente, depende de profissionais habilitados e dos critérios aplicáveis à condição investigada.
+
+## Em resumo
+
+A identificação da dupla excepcionalidade não é uma caça a um sinal definitivo. É um processo de investigação que precisa considerar potencialidades, dificuldades, contexto, trajetória e diferentes fontes de informação. Testes podem oferecer dados importantes, mas nenhum resultado isolado descreve toda a pessoa.
+
+Para famílias e escolas, uma contribuição valiosa é documentar situações concretas, observar tanto o que a pessoa faz bem quanto onde encontra barreiras e buscar avaliação qualificada quando houver questões persistentes. O propósito não é encaixar alguém em uma categoria, mas compreender melhor suas características e necessidades.
+
+## Referências científicas
+
+- **Fusaro, L. H.; Nakano, T. C.; Negreiros, J. R.; Chnaider, J. (2025).** Dupla excepcionalidade: revisão da produção científica nacional e internacional. *Revista Educação Especial*. [https://doi.org/10.5902/1984686X93567](https://doi.org/10.5902/1984686X93567). Revisão de 52 artigos empíricos.
+- **Ozturk, B.; Tan, S. (2026).** Identifying Twice-Exceptional Students: A Systematic Research Review. *Journal of Advanced Academics*, 37(2), 393–420. [https://doi.org/10.1177/1932202X251387416](https://doi.org/10.1177/1932202X251387416). Revisão sistemática de 22 estudos sobre identificação.
+- **Maki, K. E.; Dougé, M.; Rubenstein, L. D.; Ridgley, L. M.; DeShon, L. e colegas (2026).** Seeing Both Sides: A Systematic Review of Identification Methods for Twice-Exceptional Learners. *Journal for the Education of the Gifted*, 49(3), 246–273. [https://doi.org/10.1177/01623532261459140](https://doi.org/10.1177/01623532261459140). Revisão sistemática; resumo disponível na página do periódico.
+- **Ogeda, C. M. M.; Omote, S. (2026).** Evidências de validade da escala para identificação do(a) estudante duplamente excepcional — altas habilidades com transtorno de déficit de atenção/hiperatividade. *Revista Brasileira de Educação Especial*, 32. [https://doi.org/10.1590/1980-54702026v32e0084](https://doi.org/10.1590/1980-54702026v32e0084). Estudo de evidências de validade da versão para professores da EIDEAH/TDAH.
+- **Nakano, T. C.; Oliveira, K. S. (2019).** Triagem de Indicadores de Altas Habilidades/Superdotação: Estrutura Fatorial. *Avaliação Psicológica*, 18(4), 448–456. [https://doi.org/10.15689/ap.2019.1804.18478.13](https://doi.org/10.15689/ap.2019.1804.18478.13). Estudo de instrumento de triagem de AH/SD, não de identificação 2e.
+- **Martins, B. A.; Oliveira, M. P. S. (2024).** Escala de Identificação de Precocidade e Indicadores de Altas Habilidades/Superdotação, Versão Educação Infantil (EIPIAHS-EI). *Revista Brasileira de Educação Especial*, 30, e0039. [https://doi.org/10.1590/1980-54702024v30e0039](https://doi.org/10.1590/1980-54702024v30e0039). Instrumento voltado à precocidade e AH/SD na Educação Infantil, não à 2e.
+
+## Nota editorial
+
+Síntese narrativa de fontes científicas consultadas em 26 de novembro de 2026. Não é uma revisão sistemática independente, não substitui avaliação profissional e não constitui orientação diagnóstica. Para o estudo de Maki e colegas, a síntese se baseia no resumo público do periódico; o texto integral tem acesso restrito. O conteúdo foi preparado com apoio de ferramentas de IA e submetido a revisão editorial assistida. A publicação foi autorizada pelo responsável editorial do 2eXlab em 26 de novembro de 2026.
+
+**Avaliação comercial:** não há recomendação de produto ou link de afiliado. A pauta é informativa e não há oferta comercial que acrescente utilidade clara ao leitor.
