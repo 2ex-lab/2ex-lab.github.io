@@ -19,8 +19,9 @@ Esta área reúne conteúdos sobre dupla excepcionalidade (2e), altas habilidade
 
 ## Artigos publicados
 
-{% assign articles = site.categories[page.category_id] | sort: "date" | reverse %}
+{% assign articles = site.categories[page.category_id] %}
 {% if articles and articles.size > 0 %}
+{% assign articles = articles | sort: "date" | reverse %}
 <ul class="post-list">
   {% for post in articles %}
   <li>
