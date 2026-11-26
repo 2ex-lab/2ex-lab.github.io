@@ -76,6 +76,78 @@ textarea:focus-visible {
 blockquote {
   color: #39434C;
   border-left-color: var(--lab-green);
+  letter-spacing: normal;
+}
+
+/* Minima's default metadata gray is too faint on the 2eXlab paper background. */
+.post-meta,
+.taxonomy-count {
+  color: #46515B;
+}
+
+/* Keep syntax-highlighted code readable, including comments and punctuation. */
+.highlight .c,
+.highlight .cm,
+.highlight .c1,
+.highlight .cs,
+.highlight .cp,
+.highlight .cpf {
+  color: #46515B;
+}
+
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kt,
+.highlight .o,
+.highlight .ow {
+  color: #185D8D;
+}
+
+.highlight .s,
+.highlight .sa,
+.highlight .sb,
+.highlight .sc,
+.highlight .dl,
+.highlight .sd,
+.highlight .s2,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .sr,
+.highlight .s1,
+.highlight .ss {
+  color: #24634F;
+}
+
+.highlight .m,
+.highlight .mb,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo,
+.highlight .il {
+  color: #704A00;
+}
+
+.highlight .na,
+.highlight .nb,
+.highlight .nc,
+.highlight .nd,
+.highlight .ne,
+.highlight .nf,
+.highlight .nn,
+.highlight .nt,
+.highlight .nv,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi,
+.highlight .vm {
+  color: #17324D;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -90,14 +162,15 @@ blockquote {
 }
 
 /* Horizontal, responsive footer shared by every page through Minima's footer include. */
+/* Minima already provides vertical padding on .site-footer, so avoid doubling it here. */
 .footer-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 1rem 2rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .footer-brand {
@@ -185,7 +258,22 @@ blockquote {
 }
 
 .taxonomy-list p { margin: 0.25rem 0; }
-.taxonomy-count { color: #46515B; font-size: 0.875rem; }
+
+/* Opt-in wrapper for responsive 16:9 video embeds; use around video iframes in Markdown. */
+.video-embed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
 
 @media (max-width: 700px) {
   .footer-inner {
@@ -201,6 +289,20 @@ blockquote {
     width: 100%;
     max-width: none;
     text-align: left;
+  }
+
+  /* Enlarge Minima's compact mobile menu control to a 44px touch target. */
+  .site-nav label[for="nav-trigger"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+  }
+
+  .site-nav .menu-icon {
+    width: 22px;
+    height: 18px;
   }
 }
 
