@@ -6,7 +6,13 @@ Laboratório independente de conhecimento e experimentação sobre dupla excepci
 
 ## Estado do projeto
 
-Em preparação. Este repositório contém a estrutura técnica inicial do site. O GitHub Pages está configurado com a fonte **GitHub Actions**, mas o site foi despublicado deliberadamente e não deve ser implantado até aprovação humana explícita.
+O site está publicado no GitHub Pages: https://2ex-lab.github.io.
+
+A publicação é automatizada pelo workflow `.github/workflows/pages.yml`, acionado por atualizações na branch `main` e também manualmente (`workflow_dispatch`). O workflow compila o site com Jekyll, executa verificações estruturais de UX e acessibilidade e publica o artefato no GitHub Pages.
+
+O workflow `.github/workflows/build.yml` realiza validações de compilação e estrutura em eventos de integração, sem executar a publicação.
+
+A versão pública atual é uma estrutura institucional inicial. As quatro áreas editoriais estão em preparação; seus conteúdos serão incluídos após pesquisa e revisão humana. A aprovação de publicação do site não significa aprovação automática de artigos ou recomendações futuras.
 
 ## Áreas editoriais
 
@@ -28,7 +34,10 @@ O site é um único projeto editorial, não quatro sites separados.
 
 ## Tecnologia
 
-GitHub + GitHub Pages + Jekyll + GitHub Actions. O único workflow presente, `.github/workflows/build.yml`, valida a compilação do Jekyll. Ele não contém etapas de implantação/publicação. Não configurar um workflow de deploy sem aprovação explícita.
+GitHub + GitHub Pages + Jekyll + GitHub Actions.
+
+- `.github/workflows/build.yml`: validação de compilação e verificações estruturais.
+- `.github/workflows/pages.yml`: compilação, verificações estruturais e publicação no GitHub Pages.
 
 ## Desenvolvimento local
 
@@ -43,7 +52,7 @@ Acesse `http://localhost:4000`.
 
 ## Próximas etapas
 
-1. Revisar a estrutura e o conteúdo institucional.
-2. Validar acessibilidade, responsividade e compilação.
-3. Decidir separadamente se/quando habilitar a implantação do GitHub Pages.
-4. Publicar somente após aprovação humana.
+1. Concluir a auditoria pública: páginas, links, navegação móvel, HTTPS, `robots.txt` e `sitemap.xml`.
+2. Registrar e tratar eventuais barreiras de acessibilidade que não sejam cobertas pelas verificações automatizadas.
+3. Manter as páginas institucionais e a documentação coerentes com o estado efetivo do site.
+4. Planejar os primeiros conteúdos editoriais seguindo os critérios de pesquisa, revisão humana e transparência do projeto.
