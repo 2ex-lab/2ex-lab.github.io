@@ -16,4 +16,19 @@ Esta área reunirá conteúdos sobre dupla excepcionalidade (2e), altas habilida
 - Não tratar pessoas 2e como um grupo homogêneo.
 - Diferenciar associação, causalidade, hipótese e consenso.
 
-<small>Área em preparação. Nenhum artigo foi publicado nesta seção.</small>
+## Artigos publicados
+
+{% assign articles = site.categories["2e-knowledge"] | sort: "date" | reverse %}
+{% if articles and articles.size > 0 %}
+<ul class="post-list">
+  {% for post in articles %}
+  <li>
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+    <p>{{ post.description | default: post.excerpt | strip_html | normalize_whitespace }}</p>
+    <small>{{ post.date | date: "%d/%m/%Y" }}</small>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>Os primeiros artigos desta área estão em preparação.</p>
+{% endif %}
