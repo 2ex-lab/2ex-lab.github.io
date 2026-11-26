@@ -2,9 +2,10 @@
 layout: home
 title: Início
 description: Um laboratório independente de conhecimento e experimentação sobre dupla excepcionalidade, neurodiversidade, aprendizagem e tecnologia.
+list_title: Conhecimento, experimentação e possibilidades
 ---
 
-# Conhecimento, experimentação e possibilidades.
+**Conhecimento, experimentação e possibilidades.**
 
 O **2ex-lab** é um laboratório independente dedicado a explorar as interseções entre dupla excepcionalidade (2e), altas habilidades/superdotação, neurodiversidade, aprendizagem, educação inclusiva, criatividade, tecnologia e acessibilidade.
 
