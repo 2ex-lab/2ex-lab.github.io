@@ -62,11 +62,13 @@ O objetivo é compreender o padrão e as condições em que ele aparece, sem pre
 
 Em 2026, Ogeda e Omote publicaram na *Revista Brasileira de Educação Especial* um estudo sobre evidências de validade da Escala para Identificação do(a) Estudante Duplamente Excepcional — Altas Habilidades com TDAH (EIDEAH/TDAH), versão para professores.
 
-Participaram 271 professores vinculados a escolas da região de Marília, em São Paulo. O estudo examinou a estrutura interna da escala, que passou de 39 para 32 itens após a análise. Os autores relataram melhora nos indicadores psicométricos do modelo reduzido, mas também apontaram resíduos e a necessidade de novos estudos com amostras mais diversas.
+Participaram 271 professores de escolas vinculadas à Diretoria de Ensino da Região de Marília (SP), que avaliaram estudantes do 1º ao 9º ano. As escolas convidadas pertenciam a essa única diretoria; 24 aceitaram participar. Cerca de 600 professores participaram de uma formação sobre o tema, mas 271 responderam à escala. Os estudantes avaliados tinham entre 6 e 15 anos, e a amostra era majoritariamente da rede estadual.
 
-Há limites importantes para interpretar esse resultado. A pesquisa aborda uma combinação específica — altas habilidades e TDAH —, foi realizada com professores de uma única região e não concluiu a normatização do instrumento para toda a população brasileira. Os próprios autores recomendam cautela e indicam que a escala deve ser considerada no contexto de avaliações multidisciplinares mais abrangentes.
+O modelo original tinha 39 itens. A análise fatorial confirmatória indicou ajuste inadequado para essa amostra; os autores propuseram um modelo reduzido de 32 itens, com indicadores de ajuste melhores. Ainda assim, os próprios autores apontam resíduos, possível influência de características da amostra e de diferenças na formação dos professores, além da necessidade de novos estudos com grupos mais diversos.
 
-Portanto, o estudo representa um avanço relevante na investigação de instrumentos no Brasil, mas não autoriza tratar essa escala como teste universal de dupla excepcionalidade, nem como ferramenta para autodiagnóstico ou diagnóstico escolar isolado.
+É importante compreender exatamente o que foi investigado: o estudo examinou evidências de validade baseadas na estrutura interna da versão para professores da EIDEAH/TDAH. Não foi um estudo de acurácia diagnóstica nem uma validação definitiva para todo o país. Os autores afirmam que a normatização para a população brasileira e a atualização/adaptação do manual não faziam parte dos objetivos desse trabalho e ficam para projetos futuros. Na conclusão, classificam a escala reduzida como ferramenta potencial de triagem, recomendando cautela e uso no contexto de avaliações multidisciplinares mais abrangentes.
+
+Portanto, o estudo representa um avanço brasileiro relevante, mas restrito a uma combinação específica — altas habilidades e TDAH — e a uma amostra de professores de uma região. Não autoriza tratar a escala como teste universal de dupla excepcionalidade, nem como ferramenta para autodiagnóstico ou diagnóstico escolar isolado.
 
 ## O que famílias e escolas podem registrar?
 
