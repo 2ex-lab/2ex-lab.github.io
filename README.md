@@ -23,7 +23,7 @@ O site é um único projeto editorial, não quatro sites separados.
 
 ## Taxonomia editorial implementada
 
-A taxonomia utiliza quatro categorias internas (`knowledge`, `learning`, `tech`, `resources`), apresentadas publicamente como as quatro áreas editoriais acima, e um vocabulário controlado de 35 tags transversais. A fonte estruturada está em `_data/taxonomy.yml`; a referência editorial e as regras de atribuição estão em [`.github/editorial/taxonomia.md`](.github/editorial/taxonomia.md). O [índice de tags](/tags/) apresenta os assuntos e os conteúdos associados. As páginas de área listam automaticamente os artigos publicados na respectiva categoria.
+A taxonomia utiliza quatro categorias internas (`knowledge`, `learning`, `tech`, `resources`), apresentadas publicamente como as quatro áreas editoriais acima, e um vocabulário controlado de 36 tags transversais. A fonte estruturada está em `_data/taxonomy.yml`; a referência editorial e as regras de atribuição estão em [`.github/editorial/taxonomia.md`](.github/editorial/taxonomia.md). O [índice de tags](/tags/) apresenta os assuntos e os conteúdos associados. As páginas de área listam automaticamente os artigos publicados na respectiva categoria.
 
 Cada artigo recebe uma categoria principal e somente tags materialmente pertinentes. Os cinco pilares editoriais são metadados transversais, não categorias.
 
