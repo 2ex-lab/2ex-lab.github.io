@@ -16,6 +16,27 @@ body {
   line-height: 1.65;
 }
 
+/* Touch-friendly navigation: increase the interactive area without changing the visual hierarchy. */
+.site-nav .page-link {
+  min-height: 44px;
+  padding: 0.65rem 0.75rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Keep long words and links from forcing horizontal scrolling on narrow screens. */
+.post-content,
+.page-content {
+  overflow-wrap: anywhere;
+}
+
+img,
+video,
+iframe {
+  max-width: 100%;
+  height: auto;
+}
+
 .site-title,
 .site-title:visited {
   color: var(--lab-navy);
