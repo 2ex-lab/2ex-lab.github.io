@@ -15,10 +15,6 @@ tags:
   - pesquisa científica
 ---
 
-> **Rascunho editorial — não publicar sem revisão humana.** Esta versão é uma síntese inicial de fontes identificadas e verificadas em 26 de novembro de 2026. Não constitui revisão sistemática própria nem avaliação clínica.
-
-# Dupla excepcionalidade (2e): o que a pesquisa científica já sabe — e o que ainda não sabemos
-
 Uma pessoa pode apresentar altas habilidades ou potencial elevado em uma área e, ao mesmo tempo, enfrentar uma deficiência, transtorno ou dificuldade significativa em outra dimensão. Essa coexistência é chamada de **dupla excepcionalidade**, ou **2e**.
 
 A ideia parece contraditória apenas quando imaginamos que talento e dificuldade precisam se anular. Na vida real, capacidades e necessidades de apoio podem coexistir. Uma pessoa pode aprender determinados assuntos com grande profundidade e, ainda assim, precisar de apoio para leitura, atenção, organização, comunicação, regulação sensorial ou outras atividades.
@@ -133,7 +129,7 @@ A ciência já oferece pistas relevantes. Ainda há, porém, lacunas importantes
 
 ## Nota editorial
 
-Este texto é uma síntese narrativa inicial de publicações científicas identificadas e consultadas em 26 de novembro de 2026. Não é uma revisão sistemática independente, não substitui a leitura integral de todas as pesquisas citadas e não constitui orientação diagnóstica. A seleção de fontes e a redação devem passar por revisão humana antes da publicação.
+Este artigo é uma síntese narrativa de publicações científicas identificadas e consultadas em 26 de novembro de 2026. Não é uma revisão sistemática independente, não substitui a leitura integral de todas as pesquisas citadas e não constitui orientação diagnóstica. O texto foi preparado com apoio de ferramentas de IA e submetido a revisão editorial assistida; a responsabilidade editorial pela publicação é do 2ex-lab.
 
 ---
 
