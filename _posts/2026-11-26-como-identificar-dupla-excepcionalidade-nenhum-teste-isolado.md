@@ -3,6 +3,7 @@ layout: article
 title: "Como identificar a dupla excepcionalidade: por que nenhum teste isolado conta toda a história"
 description: "O que revisões científicas e uma pesquisa brasileira recente mostram sobre identificação, avaliação multidimensional, mascaramento e limites dos instrumentos para estudantes 2e."
 permalink: /2e-knowledge/como-identificar-dupla-excepcionalidade/
+date: 2026-11-26
 categories:
   - knowledge
 tags:
@@ -126,6 +127,6 @@ Para famílias e escolas, uma contribuição valiosa é documentar situações c
 
 ## Nota editorial
 
-Síntese narrativa de fontes científicas consultadas em 26 de novembro de 2026. Não é uma revisão sistemática independente, não substitui avaliação profissional e não constitui orientação diagnóstica. Para o estudo de Maki e colegas, a síntese se baseia no resumo público do periódico; o texto integral tem acesso restrito. O conteúdo foi preparado com apoio de ferramentas de IA e requer revisão e aprovação editorial humana antes de qualquer publicação.
+Síntese narrativa de fontes científicas consultadas em 26 de novembro de 2026. Não é uma revisão sistemática independente, não substitui avaliação profissional e não constitui orientação diagnóstica. Para o estudo de Maki e colegas, a síntese se baseia no resumo público do periódico; o texto integral tem acesso restrito. O conteúdo foi preparado com apoio de ferramentas de IA e submetido a revisão editorial assistida. A publicação foi autorizada pelo responsável editorial do 2eXlab em 26 de novembro de 2026.
 
 **Avaliação comercial:** não há recomendação de produto ou link de afiliado. A pauta é informativa e não há oferta comercial que acrescente utilidade clara ao leitor.
