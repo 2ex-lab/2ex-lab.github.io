@@ -31,11 +31,12 @@ Cada artigo recebe uma categoria principal e somente tags materialmente pertinen
 
 ## Tecnologia
 
-GitHub + GitHub Pages + Jekyll + GitHub Actions + Basically Basic (em avaliação nesta branch).
+GitHub + GitHub Pages + Jekyll + GitHub Actions + Basically Basic 1.4.5.
 
-- O tema é carregado por `remote_theme`, fixado na versão 1.4.5.
-- `.github/workflows/build.yml`: validação de compilação e verificações estruturais.
-- `.github/workflows/pages.yml`: compilação, verificações estruturais e publicação no GitHub Pages.
+- O tema é carregado por `remote_theme`, com versão fixada em 1.4.5.
+- A camada visual própria está em `assets/css/custom.css` e não depende do Minima.
+- Os layouts e includes padrão do Basically Basic são usados sempre que possível; os overrides restantes são específicos do 2ex-lab.
+
 
 ## Desenvolvimento local
 
