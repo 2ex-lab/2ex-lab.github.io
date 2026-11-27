@@ -5,22 +5,10 @@ baseurl: ""
 lang: "pt-BR"
 timezone: "America/Recife"
 
+email: "2exlab.studio@gmail.com"
 contact_email: "2exlab.studio@gmail.com"
 
-header_pages:
-  - sobre.md
-  - artigos.md
-  - 2e-knowledge/index.md
-  - 2e-learning/index.md
-  - 2e-tech/index.md
-  - 2e-resources/index.md
-  - categorias.md
-  - tags/index.md
-  - acessibilidade.md
-  - privacidade.md
-
-minima:
-  skin: classic
+remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 
 markdown: kramdown
 permalink: /:categories/:title/
@@ -30,9 +18,18 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: article
+      read_time: true
+
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
   - vendor/
   - .github/
+  - scripts/

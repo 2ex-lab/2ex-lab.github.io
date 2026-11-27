@@ -506,3 +506,116 @@ blockquote {
     justify-content: flex-start;
   }
 }
+
+
+/* Ajustes do protótipo Basically Basic: preservar a identidade editorial do 2ex-lab. */
+body {
+  color: var(--lab-ink);
+  background: var(--lab-paper);
+  line-height: 1.7;
+}
+
+#masthead .site-title a {
+  color: var(--lab-navy);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+}
+
+#masthead .site-title a:hover,
+#masthead .site-title a:focus-visible {
+  color: #185D8D;
+}
+
+.intro-title,
+.section-title,
+.entry-title,
+.entry-content h2,
+.entry-content h3 {
+  color: var(--lab-navy);
+  letter-spacing: -0.025em;
+}
+
+.entry-content,
+.intro-text {
+  overflow-wrap: anywhere;
+}
+
+.entry-content a,
+.intro-text a,
+#primary-nav a,
+.contact-list a {
+  text-underline-offset: 0.18em;
+}
+
+.entry-content a:focus-visible,
+#primary-nav a:focus-visible,
+.contact-list a:focus-visible,
+.footer-navigation a:focus-visible {
+  outline: 3px solid var(--lab-focus);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.sidebar {
+  background: var(--lab-navy);
+}
+
+.sidebar a {
+  color: #FFFFFF;
+}
+
+.sidebar a:hover {
+  color: var(--lab-yellow);
+}
+
+.article-taxonomy {
+  margin: 0 0 1.75rem;
+  padding: 0.9rem 0;
+  border-top: 1px solid #D7D8D5;
+  border-bottom: 1px solid #D7D8D5;
+  font-size: 0.92rem;
+}
+
+.article-category { margin: 0 0 0.5rem; }
+.article-tags-wrap { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.35rem 0.75rem; }
+.article-tags-label { font-weight: 600; }
+.article-tags { display: flex; flex-wrap: wrap; gap: 0.35rem 0.5rem; list-style: none; margin: 0; padding: 0; }
+.article-tags a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 0.15rem 0.55rem;
+  border: 1px solid #B8C6D0;
+  border-radius: 999px;
+  text-decoration: none;
+  background: #FFFFFF;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.25rem 2rem;
+}
+
+.footer-brand { flex: 1 1 14rem; max-width: 22rem; }
+.footer-brand-name { display: inline-block; color: var(--lab-navy); font-weight: 700; font-size: 1.1rem; text-decoration: none; }
+.footer-brand p, .footer-contact p { margin: 0.35rem 0; }
+.footer-navigation { flex: 2 1 22rem; min-width: 0; }
+.footer-navigation-list { display: flex; flex-wrap: wrap; gap: 0.25rem 0.9rem; list-style: none; margin: 0; padding: 0; }
+.footer-navigation-list a { display: inline-flex; align-items: center; min-height: 40px; }
+.footer-contact { flex: 1 1 12rem; font-size: 0.9rem; }
+.footer-copyright { color: #46515B; }
+
+.article-share {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #D7D8D5;
+}
+.article-share-list { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; list-style: none; margin: 0; padding: 0; }
+
+@media (max-width: 700px) {
+  .footer-inner { flex-direction: column; }
+  .footer-brand, .footer-navigation, .footer-contact { width: 100%; max-width: none; }
+}

@@ -1,0 +1,52 @@
+# Tema em avaliação: Basically Basic 1.4.5
+# A skin soft é apenas a configuração inicial deste protótipo.
+skin: soft
+
+t:
+  skip_links: "Links de navegação"
+  skip_primary_nav: "Pular para a navegação principal"
+  skip_content: "Pular para o conteúdo"
+  skip_footer: "Pular para o rodapé"
+  menu: "Abrir menu"
+  search: "Buscar"
+  site_search: "Busca no site"
+  results_found: "Resultado(s) encontrado(s)"
+  search_placeholder_text: "Digite o que deseja encontrar..."
+  home: "Início"
+  newer: "Mais recentes"
+  older: "Mais antigos"
+  email: "E-mail"
+  subscribe: "Assinar feed"
+  read_more: "Ler mais"
+  posts: "Publicações"
+  page: "Página"
+  of: "de"
+  min_read: "min de leitura"
+  present: "Atual"
+  cv_awards: "Prêmios"
+  cv_summary_contact: "Contato"
+  cv_summary_contact_email: "E-mail"
+  cv_summary_contact_phone: "Telefone"
+  cv_summary_contact_website: "Site"
+  cv_location: "Localização"
+  cv_education: "Formação"
+  cv_education_courses: "Cursos"
+  cv_interests: "Interesses"
+  cv_languages: "Idiomas"
+  cv_publications: "Publicações"
+  cv_references: "Referências"
+  cv_skills: "Competências"
+  cv_volunteer: "Voluntariado"
+  cv_work: "Experiência"
+
+navigation_pages:
+  - sobre.md
+  - artigos.md
+  - 2e-knowledge/index.md
+  - 2e-learning/index.md
+  - 2e-tech/index.md
+  - 2e-resources/index.md
+  - categorias.md
+  - tags/index.md
+  - acessibilidade.md
+  - privacidade.md
