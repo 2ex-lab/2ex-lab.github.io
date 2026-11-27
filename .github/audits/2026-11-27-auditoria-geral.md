@@ -41,11 +41,10 @@ Inspeção estática dos seguintes componentes:
 - **Impacto:** instruções de continuidade incorretas e risco de duplicar uma pauta.
 - **Correção preparada:** a agenda registra a publicação antecipada; o README lista os dois artigos publicados e aponta a pauta de 22/12/2026 como próxima etapa.
 
-### AUD-03 — Divergência de escopo entre documentos
-- **Severidade:** Observação estratégica — requer decisão humana.
-- **Evidência:** o repositório e o site implementam um laboratório editorial sobre dupla excepcionalidade. O documento-fonte estratégico de 27/11/2026 descreve um negócio baseado em IA e entregáveis delimitados, com produto e público ainda não definidos.
-- **Impacto:** risco de orientar futuras mudanças de site, marca, conteúdo ou aquisição com base em premissas incompatíveis.
-- **Tratamento:** não alterado. A decisão de manter, separar, reaproveitar ou reformular o site exige confirmação explícita.
+### AUD-03 — Documento-fonte estratégico anterior
+- **Severidade:** Nota de contexto — não é defeito do site.
+- **Esclarecimento do responsável pelo projeto:** o documento-fonte estratégico anexado é uma estratégia antiga e pode servir somente como consulta.
+- **Tratamento:** não usar esse documento como estratégia vigente, requisito atual ou critério para reformular o site. O escopo editorial efetivamente implementado no repositório deve ser avaliado a partir das decisões atuais do projeto e dos arquivos operacionais vigentes. Nenhuma divergência estratégica permanece aberta com base apenas naquele documento.
 
 ## Revisão técnica estática
 
