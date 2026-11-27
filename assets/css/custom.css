@@ -291,19 +291,6 @@ blockquote {
     text-align: left;
   }
 
-  /* Enlarge Minima's compact mobile menu control to a 44px touch target. */
-  .site-nav label[for="nav-trigger"] {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-  }
-
-  .site-nav .menu-icon {
-    width: 22px;
-    height: 18px;
-  }
 }
 
 /* Hashtag visual identity for controlled tags; slugs and fragment URLs stay unchanged. */
