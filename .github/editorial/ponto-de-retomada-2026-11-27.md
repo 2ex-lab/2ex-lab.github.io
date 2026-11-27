@@ -29,7 +29,7 @@ O relatório detalhado está em [`.github/audits/2026-11-27-auditoria-geral.md`]
 2. Se os testes passarem, revisar as quatro alterações documentais e decidir se autoriza o merge.
 3. Manter o artigo 2 como publicado; não recriá-lo como rascunho.
 4. Próxima pauta editorial prevista: **2e Learning — “Quando potencial e dificuldade coexistem na escola: barreiras, apoios e participação”**, janela de 22/12/2026.
-5. Resolver explicitamente a divergência estratégica: o site/repositório atual é editorial sobre 2e, enquanto o documento-fonte estratégico de 27/11 descreve um negócio baseado em IA e entregáveis delimitados. Não reformular o site antes dessa decisão.
+5. Tratar o documento-fonte estratégico anexado como estratégia antiga, disponível apenas para consulta histórica. Não o usar como orientação vigente nem como motivo para reformular o site.
 
 ## Limite de cobertura
 
