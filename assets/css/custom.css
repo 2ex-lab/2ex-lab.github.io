@@ -411,3 +411,48 @@ blockquote {
     padding: 0.55rem 0.65rem;
   }
 }
+
+
+/* Publicações: listagem editorial de artigos publicados. */
+.articles-count {
+  margin: 1.5rem 0 0.75rem;
+  color: #46515B;
+  font-size: 0.95rem;
+}
+
+.published-articles {
+  margin-top: 1rem;
+  border-top: 1px solid #D7D8D5;
+}
+
+.published-article {
+  padding: 1.35rem 0 1.2rem;
+  border-bottom: 1px solid #D7D8D5;
+}
+
+.published-article-meta {
+  margin: 0 0 0.35rem;
+  color: #46515B;
+  font-size: 0.85rem;
+}
+
+.published-article h2 {
+  margin: 0 0 0.45rem;
+  font-size: 1.35rem;
+  line-height: 1.35;
+}
+
+.published-article > p:not(.published-article-meta):not(.published-article-link) {
+  margin: 0.35rem 0;
+}
+
+.published-article-link {
+  margin: 0.65rem 0 0;
+  font-weight: 600;
+}
+
+.published-article-link a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
