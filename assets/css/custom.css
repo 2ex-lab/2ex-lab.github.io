@@ -314,14 +314,11 @@ blockquote {
 
 
 /* Accessible Minima navigation: native disclosure, no JavaScript required. */
-.site-nav-details > summary {
-  display: none;
-  list-style: none;
-}
-
-.site-nav-details > summary::-webkit-details-marker { display: none; }
-.site-nav-details > summary::marker { content: ""; }
-.site-nav-details > .trigger { display: block; }
+.desktop-trigger { display: block; }
+.mobile-nav { display: none; }
+.mobile-nav > summary { list-style: none; }
+.mobile-nav > summary::-webkit-details-marker { display: none; }
+.mobile-nav > summary::marker { content: ""; }
 
 .visually-hidden {
   position: absolute;
@@ -366,7 +363,10 @@ blockquote {
     text-align: right;
   }
 
-  .site-nav-details > summary {
+  .desktop-trigger { display: none; }
+  .mobile-nav { display: block; }
+
+  .mobile-nav > summary {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -379,12 +379,12 @@ blockquote {
     background: var(--lab-paper);
   }
 
-  .site-nav-details > summary:focus-visible {
+  .mobile-nav > summary:focus-visible {
     outline: 3px solid var(--lab-focus);
     outline-offset: 3px;
   }
 
-  .site-nav-details .menu-icon {
+  .mobile-nav .menu-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -395,12 +395,12 @@ blockquote {
     line-height: 1;
   }
 
-  .site-nav-details .menu-icon svg {
+  .mobile-nav .menu-icon svg {
     display: block;
     fill: var(--lab-navy);
   }
 
-  .site-nav-details > .trigger {
+  .mobile-nav > .trigger {
     display: none;
     position: absolute;
     top: 49px;
@@ -414,7 +414,7 @@ blockquote {
     text-align: left;
   }
 
-  .site-nav-details[open] > .trigger { display: block; }
+  .mobile-nav[open] > .trigger { display: block; }
 
   .site-nav .page-link {
     display: flex;
