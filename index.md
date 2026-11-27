@@ -31,7 +31,7 @@ Guias, materiais, bibliotecas e recursos selecionados com critérios explícitos
 
 ## Navegue por categorias e assuntos
 
-Consulte o [índice de categorias]({{ '/categorias/' | relative_url }}) para conhecer as quatro áreas editoriais, comparar seus escopos e encontrar os artigos publicados.
+Consulte o [índice de categorias]({{ '/categorias/' | relative_url }}) para conhecer as quatro áreas editoriais e comparar seus escopos. Acesse também a página de [artigos publicados]({{ '/artigos/' | relative_url }}) para ver todas as publicações em ordem cronológica.
 
 Use o [índice de tags]({{ '/tags/' | relative_url }}) para explorar os temas transversais e descobrir conteúdos relacionados entre as quatro áreas.
 
