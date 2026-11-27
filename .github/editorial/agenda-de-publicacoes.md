@@ -1,6 +1,6 @@
 # Agenda editorial e cadência de publicação
 
-**Versão:** 1.1  
+**Versão:** 1.2  
 **Atualização:** 27/11/2026  
 **Status:** agenda inicial; datas são alvos flexíveis, não compromissos rígidos.
 
@@ -15,7 +15,7 @@ A produção deve caber na disponibilidade aproximada de quatro horas semanais, 
 | Janela-alvo | Área | Pauta de trabalho | Objetivo editorial | Estado |
 |---|---|---|---|---|
 | 08/12/2026 | 2e Knowledge | Como identificar a dupla excepcionalidade: por que nenhum teste isolado conta toda a história | Explicar avaliação multidimensional, fontes de informação, discrepâncias e limites da literatura, sem orientar diagnóstico | **Publicado antecipadamente em 26/11/2026** |
-| 22/12/2026 | 2e Learning | Quando potencial e dificuldade coexistem na escola: barreiras, apoios e participação | Traduzir evidências em perguntas e possibilidades para educadores e famílias, sem receitas universais | Planejado |
+| 22/12/2026 | 2e Learning | Quando potencial e dificuldade coexistem na escola: barreiras, apoios e participação | Traduzir evidências em perguntas e possibilidades para educadores e famílias, sem receitas universais | **Publicado antecipadamente em 27/11/2026** |
 | 12/01/2027 | 2e Knowledge | Mascaramento na dupla excepcionalidade: o que pode ficar invisível — e o que a pesquisa ainda não permite concluir | Aprofundar o conceito com delimitação por perfis e qualidade das evidências | Planejado |
 | 26/01/2027 | 2e Learning | Apoiar sem reduzir expectativas: princípios para ambientes de aprendizagem inclusivos | Sintetizar princípios de apoio, acessibilidade pedagógica e desenvolvimento de potencial | Planejado |
 | 09/02/2027 | 2e Tech | IA e tecnologia assistiva no apoio à aprendizagem: critérios para avaliar ferramentas | Analisar utilidade, acessibilidade, privacidade, custo, compatibilidade e limitações; não fazer recomendações sem teste | Planejado |
