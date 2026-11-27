@@ -116,6 +116,14 @@ def audit(path):
     for label_target in parser._labels_for:
         if label_target not in control_ids:
             errors.append(f"{rel}: label associado a controle inexistente: {label_target}")
+    if "top" not in parser.ids:
+        errors.append(f"{rel}: destino #top ausente")
+    if not any(link["href"].strip() == "#top" for link in parser.links):
+        errors.append(f"{rel}: link de voltar ao topo ausente")
+    if not {"site-theme", "site-text-size"}.issubset(control_ids):
+        errors.append(f"{rel}: controles de aparência ausentes")
+    if not {"site-theme", "site-text-size"}.issubset(parser._labels_for):
+        errors.append(f"{rel}: controles de aparência sem rótulos associados")
     if not parser.html_lang:
         errors.append(f"{rel}: atributo lang ausente em <html>")
     if not parser.viewport:
