@@ -8,7 +8,7 @@ Laboratório independente de conhecimento e experimentação sobre dupla excepci
 
 O site está publicado no GitHub Pages: https://2ex-lab.github.io.
 
-Esta branch contém um **protótipo de avaliação do tema Basically Basic 1.4.5**. A experiência não está aprovada para publicação; a branch `main` permanece como versão publicada até decisão posterior.
+**Tema ativo:** Basically Basic 1.4.5. A migração foi aplicada à branch `main`; o conteúdo editorial, as categorias, as tags e as URLs permanentes foram preservados. O tema anterior Minima e seus overrides específicos foram removidos.
 
 A publicação é automatizada pelo workflow `.github/workflows/pages.yml`, acionado por atualizações na branch `main` e também manualmente (`workflow_dispatch`). O workflow compila o site com Jekyll, executa verificações estruturais de UX e acessibilidade e publica o artefato no GitHub Pages.
 
@@ -57,7 +57,7 @@ As Skills operacionais e editoriais ficam em `.github/skills/` e são documentos
 
 1. Preparar e revisar a pauta de **2e Learning** prevista para 22/12/2026: barreiras, apoios e participação quando potencial e dificuldade coexistem na escola.
 2. Manter a cadência de duas publicações mensais, com datas flexíveis e aprovação humana explícita antes de cada publicação.
-3. Avaliar o protótipo do tema em desktop e celular antes de decidir sobre sua adoção.
+3. Refinar a apresentação do tema Basically Basic em desktop e celular, preservando conteúdo, navegação, acessibilidade e URLs.
 4. Manter decisões editoriais e estratégicas alinhadas às orientações atuais do projeto.
 
 ## Conteúdos publicados
