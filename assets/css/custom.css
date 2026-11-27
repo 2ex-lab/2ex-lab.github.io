@@ -456,31 +456,3 @@ blockquote {
   align-items: center;
   min-height: 44px;
 }
-
-
-/* Prevent Minima's floated navigation links from breaking the custom header menu. */
-.desktop-trigger {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-}
-
-.desktop-trigger .page-link {
-  float: none;
-}
-
-@media (max-width: 600px) {
-  .mobile-nav > .trigger {
-    box-sizing: border-box;
-    width: max-content;
-  }
-
-  .mobile-nav .trigger .page-link {
-    float: none;
-    display: flex;
-    width: 100%;
-    box-sizing: border-box;
-    justify-content: flex-start;
-  }
-}
