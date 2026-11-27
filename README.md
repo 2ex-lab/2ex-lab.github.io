@@ -47,11 +47,16 @@ Acesse `http://localhost:4000`.
 
 ## Skills e documentação operacional
 
-As Skills operacionais e editoriais ficam em `.github/skills/` e são documentos Markdown versionados; não são Skills nativas instaladas automaticamente no ChatGPT. O ponto de retomada do projeto está em `.github/editorial/ponto-de-retomada-2026-11-26.md`.
+As Skills operacionais e editoriais ficam em `.github/skills/` e são documentos Markdown versionados; não são Skills nativas instaladas automaticamente no ChatGPT. O ponto de retomada anterior está em `.github/editorial/ponto-de-retomada-2026-11-26.md`; a auditoria mais recente e o novo ponto de continuidade estão em `.github/audits/` e `.github/editorial/`.
 
 ## Próximas etapas
 
-1. Obter a decisão humana sobre o rascunho do segundo artigo, mantendo-o em `_drafts/` até aprovação explícita.
-2. Manter o ciclo editorial quinzenal e a agenda flexível, sem publicação automática.
-3. Continuar a auditoria técnica e a zeladoria do repositório com a Skill 10, registrando evidências e preservando conteúdo e histórico.
-4. Conferir build, verificações estruturais e deploy após mudanças integradas.
+1. Preparar e revisar a pauta de **2e Learning** prevista para 22/12/2026: barreiras, apoios e participação quando potencial e dificuldade coexistem na escola.
+2. Manter a cadência de duas publicações mensais, com datas flexíveis e aprovação humana explícita antes de cada publicação.
+3. Acompanhar a validação técnica e a publicação das alterações propostas na auditoria de 27/11/2026.
+4. Resolver explicitamente a divergência entre o escopo editorial atualmente implementado neste repositório e o documento-fonte estratégico mais recente do 2ex-lab, antes de qualquer reformulação de marca ou conteúdo.
+
+## Conteúdos publicados
+
+- [Dupla excepcionalidade (2e): o que a pesquisa científica já sabe — e o que ainda não sabemos](https://2ex-lab.github.io/2e-knowledge/dupla-excepcionalidade-o-que-a-ciencia-sabe/).
+- [Como identificar a dupla excepcionalidade: por que nenhum teste isolado conta toda a história](https://2ex-lab.github.io/2e-knowledge/como-identificar-dupla-excepcionalidade/).
