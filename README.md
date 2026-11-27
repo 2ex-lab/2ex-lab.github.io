@@ -8,6 +8,8 @@ Laboratório independente de conhecimento e experimentação sobre dupla excepci
 
 O site está publicado no GitHub Pages: https://2ex-lab.github.io.
 
+Esta branch contém um **protótipo de avaliação do tema Basically Basic 1.4.5**. A experiência não está aprovada para publicação; a branch `main` permanece como versão publicada até decisão posterior.
+
 A publicação é automatizada pelo workflow `.github/workflows/pages.yml`, acionado por atualizações na branch `main` e também manualmente (`workflow_dispatch`). O workflow compila o site com Jekyll, executa verificações estruturais de UX e acessibilidade e publica o artefato no GitHub Pages.
 
 O workflow `.github/workflows/build.yml` realiza validações de compilação e estrutura em eventos de integração, sem executar a publicação.
@@ -29,10 +31,12 @@ Cada artigo recebe uma categoria principal e somente tags materialmente pertinen
 
 ## Tecnologia
 
-GitHub + GitHub Pages + Jekyll + GitHub Actions.
+GitHub + GitHub Pages + Jekyll + GitHub Actions + Basically Basic 1.4.5.
 
-- `.github/workflows/build.yml`: validação de compilação e verificações estruturais.
-- `.github/workflows/pages.yml`: compilação, verificações estruturais e publicação no GitHub Pages.
+- O tema é carregado por `remote_theme`, com versão fixada em 1.4.5.
+- A camada visual própria está em `assets/css/custom.css` e não depende do Minima.
+- Os layouts e includes padrão do Basically Basic são usados sempre que possível; os overrides restantes são específicos do 2ex-lab.
+
 
 ## Desenvolvimento local
 
@@ -47,16 +51,17 @@ Acesse `http://localhost:4000`.
 
 ## Skills e documentação operacional
 
-As Skills operacionais e editoriais ficam em `.github/skills/` e são documentos Markdown versionados; não são Skills nativas instaladas automaticamente no ChatGPT. O ponto de retomada anterior está em `.github/editorial/ponto-de-retomada-2026-11-26.md`; a auditoria mais recente e o novo ponto de continuidade estão em `.github/audits/` e `.github/editorial/`.
+As Skills operacionais e editoriais ficam em `.github/skills/` e são documentos Markdown versionados; não são Skills nativas instaladas automaticamente no ChatGPT. Os pontos de continuidade, a agenda editorial e as auditorias ficam em `.github/editorial/` e `.github/audits/`.
 
 ## Próximas etapas
 
 1. Preparar e revisar a pauta de **2e Learning** prevista para 22/12/2026: barreiras, apoios e participação quando potencial e dificuldade coexistem na escola.
 2. Manter a cadência de duas publicações mensais, com datas flexíveis e aprovação humana explícita antes de cada publicação.
-3. Acompanhar a validação técnica e a publicação das alterações propostas na auditoria de 27/11/2026.
-4. Manter decisões editoriais e estratégicas alinhadas às orientações atuais do projeto; documentos-fonte estratégicos antigos servem apenas como consulta histórica.
+3. Avaliar o protótipo do tema em desktop e celular antes de decidir sobre sua adoção.
+4. Manter decisões editoriais e estratégicas alinhadas às orientações atuais do projeto.
 
 ## Conteúdos publicados
 
 - [Dupla excepcionalidade (2e): o que a pesquisa científica já sabe — e o que ainda não sabemos](https://2ex-lab.github.io/2e-knowledge/dupla-excepcionalidade-o-que-a-ciencia-sabe/).
 - [Como identificar a dupla excepcionalidade: por que nenhum teste isolado conta toda a história](https://2ex-lab.github.io/2e-knowledge/como-identificar-dupla-excepcionalidade/).
+- [Quando potencial e dificuldade coexistem na escola: barreiras, apoios e participação](https://2ex-lab.github.io/2e-learning/dupla-excepcionalidade-escola-barreiras-apoios-participacao/).
