@@ -456,3 +456,53 @@ blockquote {
   align-items: center;
   min-height: 44px;
 }
+
+/* Header layout: keep the brand and full navigation in one predictable responsive flow. */
+@media (min-width: 601px) {
+  .site-header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+  }
+
+  .site-header .site-nav {
+    float: none;
+    line-height: 1.5;
+    margin-left: auto;
+  }
+
+  .site-header .desktop-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 0 0.25rem;
+  }
+
+  .site-header .desktop-trigger .page-link {
+    float: none;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .site-header .wrapper {
+    position: relative;
+    min-height: 3.5rem;
+  }
+
+  .site-header .mobile-nav > .trigger {
+    box-sizing: border-box;
+    width: min(18rem, calc(100vw - 2rem));
+  }
+
+  .site-header .mobile-nav > .trigger .page-link {
+    float: none;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: flex-start;
+  }
+}
