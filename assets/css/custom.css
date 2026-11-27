@@ -291,23 +291,123 @@ blockquote {
     text-align: left;
   }
 
-  /* Enlarge Minima's compact mobile menu control to a 44px touch target. */
-  .site-nav label[for="nav-trigger"] {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-  }
-
-  .site-nav .menu-icon {
-    width: 22px;
-    height: 18px;
-  }
 }
 
 /* Hashtag visual identity for controlled tags; slugs and fragment URLs stay unchanged. */
 .tag-link::before,
 .tag-name::before {
   content: "#";
+}
+
+
+/* Accessible Minima navigation: native disclosure, no JavaScript required. */
+.desktop-trigger { display: block; }
+.mobile-nav { display: none; }
+.mobile-nav > summary { list-style: none; }
+.mobile-nav > summary::-webkit-details-marker { display: none; }
+.mobile-nav > summary::marker { content: ""; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  z-index: 1000;
+  top: 0.5rem;
+  left: -9999px;
+  padding: 0.65rem 0.9rem;
+  color: #FFFFFF;
+  background: var(--lab-navy);
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  left: 0.75rem;
+  color: #FFFFFF;
+}
+
+#main-content:focus { outline: none; }
+
+@media (max-width: 600px) {
+  .site-nav {
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    float: none;
+    z-index: 20;
+    background: transparent;
+    border: 0;
+    text-align: right;
+  }
+
+  .desktop-trigger { display: none; }
+  .mobile-nav { display: block; }
+
+  .mobile-nav > summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    cursor: pointer;
+    border: 1px solid #D7D8D5;
+    border-radius: 5px;
+    background: var(--lab-paper);
+  }
+
+  .mobile-nav > summary:focus-visible {
+    outline: 3px solid var(--lab-focus);
+    outline-offset: 3px;
+  }
+
+  .mobile-nav .menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    padding: 0;
+    float: none;
+    line-height: 1;
+  }
+
+  .mobile-nav .menu-icon svg {
+    display: block;
+    fill: var(--lab-navy);
+  }
+
+  .mobile-nav > .trigger {
+    display: none;
+    position: absolute;
+    top: 49px;
+    right: 0;
+    min-width: 13rem;
+    padding: 0.35rem 0.5rem;
+    background: var(--lab-paper);
+    border: 1px solid #D7D8D5;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(23, 50, 77, 0.12);
+    text-align: left;
+  }
+
+  .mobile-nav[open] > .trigger { display: block; }
+
+  .site-nav .page-link {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    margin: 0;
+    padding: 0.55rem 0.65rem;
+  }
 }
