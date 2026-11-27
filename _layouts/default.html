@@ -6,6 +6,9 @@
     {%- include header.html -%}
     <main id="main-content" class="page-content" aria-label="Conteúdo principal" tabindex="-1">
       <div class="wrapper">
+        {%- if page.title and page.title != "" -%}
+          <h1 class="page-heading">{{ page.title | escape }}</h1>
+        {%- endif -%}
         {{ content }}
       </div>
     </main>
