@@ -1,30 +1,75 @@
 <footer class="site-footer">
-  <div class="wrapper footer-inner">
-    <div class="footer-brand">
-      <a class="footer-brand-name" href="{{ '/' | relative_url }}">2ex-lab</a>
-      <p>{{ site.description | escape }}</p>
-    </div>
+  <div class="wrapper">
+    <section class="site-preferences" aria-labelledby="site-preferences-title">
+      <div class="preferences-intro">
+        <h2 id="site-preferences-title">Personalize sua leitura</h2>
+        <p>Escolha uma aparência mais confortável. As preferências ficam salvas neste dispositivo.</p>
+      </div>
 
-    <nav class="footer-navigation" aria-label="Navegação do rodapé">
-      <ul class="footer-navigation-list">
-        <li><a href="{{ '/' | relative_url }}">Início</a></li>
-        <li><a href="{{ '/sobre/' | relative_url }}">Sobre</a></li>
-        <li><a href="{{ '/categorias/' | relative_url }}">Categorias</a></li>
-        <li><a href="{{ '/2e-knowledge/' | relative_url }}">2e Knowledge</a></li>
-        <li><a href="{{ '/2e-learning/' | relative_url }}">2e Learning</a></li>
-        <li><a href="{{ '/2e-tech/' | relative_url }}">2e Tech</a></li>
-        <li><a href="{{ '/2e-resources/' | relative_url }}">2e Resources</a></li>
-        <li><a href="{{ '/tags/' | relative_url }}">Tags</a></li>
-        <li><a href="{{ '/acessibilidade/' | relative_url }}">Acessibilidade</a></li>
-        <li><a href="{{ '/privacidade/' | relative_url }}">Privacidade</a></li>
-      </ul>
-    </nav>
+      <div class="preferences-controls">
+        <div class="preference-field">
+          <label for="site-theme">Cor de fundo</label>
+          <select id="site-theme" name="theme" data-theme-select>
+            <option value="light">Claro</option>
+            <option value="dark">Escuro</option>
+            <option value="contrast">Alto contraste</option>
+          </select>
+        </div>
 
-    <div class="footer-contact">
-      {% if site.contact_email and site.contact_email != "" %}
-      <p><strong>Contato</strong><br><a href="mailto:{{ site.contact_email | escape }}">{{ site.contact_email | escape }}</a></p>
-      {% endif %}
-      <p class="footer-copyright"><small>© {{ site.time | date: "%Y" }} 2ex-lab. Conhecimento, experimentação e possibilidades.</small></p>
+        <div class="preference-field">
+          <label for="site-text-size">Tamanho do texto</label>
+          <select id="site-text-size" name="text-size" data-text-size-select>
+            <option value="normal">Padrão</option>
+            <option value="large">Grande</option>
+            <option value="larger">Maior</option>
+            <option value="largest">Muito grande</option>
+          </select>
+        </div>
+
+        <button class="preferences-reset" type="button" data-preferences-reset>Restaurar padrão</button>
+      </div>
+      <p class="preferences-status visually-hidden" data-preferences-status role="status" aria-live="polite"></p>
+    </section>
+
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a class="footer-brand-name" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+        <p>Conhecimento, experimentação e possibilidades.</p>
+        <p class="footer-description">{{ site.description | escape }}</p>
+      </div>
+
+      <nav class="footer-navigation" aria-label="Navegação do rodapé">
+        <h2 class="footer-heading">Explore</h2>
+        <ul class="footer-navigation-list">
+          <li><a href="{{ '/' | relative_url }}">Início</a></li>
+          <li><a href="{{ '/sobre/' | relative_url }}">Sobre</a></li>
+          <li><a href="{{ '/categorias/' | relative_url }}">Categorias</a></li>
+          <li><a href="{{ '/2e-knowledge/' | relative_url }}">2e Knowledge</a></li>
+          <li><a href="{{ '/2e-learning/' | relative_url }}">2e Learning</a></li>
+          <li><a href="{{ '/2e-tech/' | relative_url }}">2e Tech</a></li>
+          <li><a href="{{ '/2e-resources/' | relative_url }}">2e Resources</a></li>
+          <li><a href="{{ '/tags/' | relative_url }}">Tags</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-contact">
+        <h2 class="footer-heading">Informações</h2>
+        <ul class="footer-legal-list">
+          <li><a href="{{ '/acessibilidade/' | relative_url }}">Acessibilidade</a></li>
+          <li><a href="{{ '/privacidade/' | relative_url }}">Privacidade</a></li>
+        </ul>
+        {% if site.contact_email and site.contact_email != "" %}
+        <p class="footer-contact-label">Contato</p>
+        <p><a href="mailto:{{ site.contact_email | escape }}">{{ site.contact_email | escape }}</a></p>
+        {% endif %}
+        <p class="footer-copyright"><small>© {{ site.time | date: "%Y" }} {{ site.title | escape }}.</small></p>
+      </div>
     </div>
+    <p class="footer-signature">Um laboratório independente de conhecimento e experimentação.</p>
   </div>
 </footer>
+
+<a class="back-to-top" href="#top" aria-label="Voltar ao topo da página">
+  <span aria-hidden="true">↑</span>
+  <span>Topo</span>
+</a>
