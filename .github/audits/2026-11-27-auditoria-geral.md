@@ -76,9 +76,9 @@ Nenhum artigo publicado, rascunho, arquivo de taxonomia, configuração de deplo
 
 ## Validação e integração
 
+- Pull Request: [#17 — Auditoria do site: corrige contato e estado editorial](https://github.com/2ex-lab/2ex-lab.github.io/pull/17).
 - Revisão estática dos arquivos alterados: concluída.
-- Build Jekyll: pendente de execução no workflow de Pull Request.
-- Verificador estrutural: pendente de execução no workflow de Pull Request.
+- Build Jekyll e verificador estrutural: ainda sem resultado visível pela conexão no momento do registro; não declarar aprovação.
 - Inspeção visual do site publicado: pendente.
 - Merge em `main` e publicação: não realizados.
 
