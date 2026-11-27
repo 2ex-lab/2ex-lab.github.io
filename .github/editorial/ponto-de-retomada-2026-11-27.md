@@ -3,7 +3,9 @@
 **Data:** 27/11/2026  
 **Repositório:** https://github.com/2ex-lab/2ex-lab.github.io  
 **Branch de trabalho:** `audit/2026-11-27-site-review`  
-**Commit-base:** `4c79ef08cec09ff2cf39a785306fa8158c787ee2`
+**Commit-base:** `4c79ef08cec09ff2cf39a785306fa8158c787ee2`  
+**Pull Request:** [#17 — Auditoria do site: corrige contato e estado editorial](https://github.com/2ex-lab/2ex-lab.github.io/pull/17)  
+**Commit da branch:** `2592a6785054c5edabb5399dd3bacd1b75c3edfd`
 
 ## Estado salvo
 
@@ -23,7 +25,7 @@ O relatório detalhado está em [`.github/audits/2026-11-27-auditoria-geral.md`]
 
 ## Próxima retomada
 
-1. Consultar a Pull Request desta auditoria e verificar o resultado do workflow de build/validação.
+1. Consultar a [Pull Request #17](https://github.com/2ex-lab/2ex-lab.github.io/pull/17) e verificar o resultado do workflow de build/validação.
 2. Se os testes passarem, revisar as quatro alterações documentais e decidir se autoriza o merge.
 3. Manter o artigo 2 como publicado; não recriá-lo como rascunho.
 4. Próxima pauta editorial prevista: **2e Learning — “Quando potencial e dificuldade coexistem na escola: barreiras, apoios e participação”**, janela de 22/12/2026.
