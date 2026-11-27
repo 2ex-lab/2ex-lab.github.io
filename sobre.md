@@ -30,4 +30,4 @@ O 2ex-lab não é clínica, serviço de diagnóstico, consultoria individual ou 
 
 ## Contato
 
-Os canais de contato serão informados quando houver uma estrutura adequada de atendimento assíncrono e proteção de privacidade.
+Para contato institucional, utilize o e-mail indicado no rodapé. O projeto não oferece atendimento clínico, diagnóstico ou consultoria individual. Evite enviar dados pessoais ou informações sensíveis.

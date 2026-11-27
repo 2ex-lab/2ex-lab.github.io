@@ -26,4 +26,4 @@ Por isso, não declaramos conformidade integral com WCAG nem compatibilidade uni
 
 ### Como relatar uma barreira
 
-Neste momento, o site ainda não oferece formulário ou canal público de atendimento. Não envie dados pessoais ou informações sensíveis por canais não indicados. Um meio de contato será informado quando houver uma opção adequada de privacidade e manutenção.
+Se encontrar uma barreira de acesso, utilize o e-mail institucional indicado no rodapé. Se possível, descreva a página, a ação que tentou realizar e o dispositivo ou navegador utilizado. Não envie dados pessoais, informações sensíveis ou documentos privados.
