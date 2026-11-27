@@ -54,7 +54,7 @@ As Skills operacionais e editoriais ficam em `.github/skills/` e são documentos
 1. Preparar e revisar a pauta de **2e Learning** prevista para 22/12/2026: barreiras, apoios e participação quando potencial e dificuldade coexistem na escola.
 2. Manter a cadência de duas publicações mensais, com datas flexíveis e aprovação humana explícita antes de cada publicação.
 3. Acompanhar a validação técnica e a publicação das alterações propostas na auditoria de 27/11/2026.
-4. Resolver explicitamente a divergência entre o escopo editorial atualmente implementado neste repositório e o documento-fonte estratégico mais recente do 2ex-lab, antes de qualquer reformulação de marca ou conteúdo.
+4. Manter decisões editoriais e estratégicas alinhadas às orientações atuais do projeto; documentos-fonte estratégicos antigos servem apenas como consulta histórica.
 
 ## Conteúdos publicados
 
