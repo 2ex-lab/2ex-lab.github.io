@@ -58,9 +58,8 @@ Inspeção estática dos seguintes componentes:
 ## Limitações da auditoria
 
 - A conexão disponível permitiu ler arquivos específicos, mas não forneceu inventário completo da árvore do repositório. Portanto, não é correto afirmar que todos os arquivos e diretórios foram inspecionados.
-- Não foi possível executar `bundle exec jekyll build` nem `python3 scripts/check_site.py` neste ambiente.
-- A tentativa de abrir o site publicado pelo navegador de pesquisa não foi bem-sucedida; não houve inspeção visual real em desktop ou celular.
-- O status agregado consultado para o commit-base não retornou verificações. Isso não comprova aprovação nem reprovação de build.
+- Não foi possível executar os comandos localmente neste ambiente. **A validação automatizada equivalente foi executada pelo GitHub Actions na branch da PR:** os workflows “Validate pull request” (run 7) e “Validate Jekyll site” (run 80) concluíram com sucesso no commit `b62d5285d9d3a10df13c3883a9bf2792bac93628`. Em ambos, as etapas “Build site” e “Run structural UX and accessibility checks” foram concluídas com sucesso.
+- Não houve inspeção visual real do site em desktop ou celular.
 - Links externos, contraste calculado, experiência com leitor de tela, Core Web Vitals, sitemap/robots gerados e configurações privadas do GitHub Pages não foram verificados.
 - A ausência de arquivos-fonte `sitemap.xml` e `robots.txt` no caminho consultado não permite concluir que esses recursos estejam ausentes do artefato publicado.
 
@@ -70,19 +69,22 @@ Inspeção estática dos seguintes componentes:
 - `acessibilidade.md`
 - `README.md`
 - `.github/editorial/agenda-de-publicacoes.md`
+- `.github/audits/2026-11-27-auditoria-geral.md`
+- `.github/editorial/ponto-de-retomada-2026-11-27.md`
 
 Nenhum artigo publicado, rascunho, arquivo de taxonomia, configuração de deploy, CSS, JavaScript ou histórico foi alterado.
 
 ## Validação e integração
 
 - Pull Request: [#17 — Auditoria do site: corrige contato e estado editorial](https://github.com/2ex-lab/2ex-lab.github.io/pull/17).
-- Revisão estática dos arquivos alterados: concluída.
-- Build Jekyll e verificador estrutural: ainda sem resultado visível pela conexão no momento do registro; não declarar aprovação.
-- Inspeção visual do site publicado: pendente.
+- Revisão estática dos arquivos alterados: concluída para os itens documentais descritos.
+- Build Jekyll e verificações estruturais de UX/acessibilidade: aprovados nos dois workflows do GitHub Actions mencionados acima.
+- Inspeção visual do site publicado e testes com tecnologias assistivas: pendentes.
 - Merge em `main` e publicação: não realizados.
 
-## Próximas decisões
+## Próximas etapas
 
-1. Aguardar o resultado do workflow de validação da Pull Request.
-2. Revisar e aprovar a proposta antes de qualquer merge.
-3. Decidir separadamente qual é o escopo futuro do site diante da divergência estratégica registrada em AUD-03.
+1. Conferir novamente os workflows após esta atualização do relatório.
+2. Concluir a revisão visual e, se possível, testes com tecnologias assistivas antes de declarar a auditoria completa.
+3. Revisar a proposta e solicitar autorização explícita antes de qualquer merge.
+4. Manter o documento-fonte estratégico antigo apenas como consulta histórica; não o tratar como plano vigente.
